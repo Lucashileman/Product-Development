@@ -338,18 +338,28 @@ Nos quedamos con este problema!
 
 ### Puntaje ICE
 
-- Impact:
-- Confidence:
-- Ease:
-- ICE:
+- Impact: 6
+- Confidence: 6
+- Ease: 8
+- ICE: 2.88
 
 ### Redacción final
 
-[PEGAR PROBLEMA]
+**Versión breve:**
 
-### Justificación
+Los estudiantes de Marketing de 2do año tienen dificultades para sostener su tiempo de estudio planeado cuando usan redes sociales de forma recreativa durante períodos de exigencia académica. Encontramos señales de esto en dos estudios académicos con estudiantes universitarios. Todavía necesitamos comprobar si esto ocurre igual en nuestro contexto y si genera una consecuencia real más allá del comportamiento en sí.
 
-[PEGAR DECISIÓN DEL EQUIPO]
+**Versión centrada en el comportamiento del usuario:**
+
+Cuando un estudiante de Marketing de 2do año se propone estudiar o avanzar con una entrega, abre una red social "por un momento" y continúa usándola más tiempo del que había decidido, postergando la actividad académica planeada. Esto sucede especialmente en momentos de presión de tiempo. Encontramos señales de este comportamiento en estudios que muestran correlación entre el uso recreativo de redes (Instagram, Facebook) y la procrastinación académica, mientras que el uso de mensajería con fines académicos (WhatsApp) se asocia a menor procrastinación. Todavía necesitamos comprobar si en nuestro grupo este comportamiento se repite con la misma frecuencia, y qué hace la persona para retomar (o no) la tarea postergada.
+
+**Versión completa (con evidencia e incertidumbre):**
+
+Los estudiantes universitarios de Marketing, 2do año, nivel socioeconómico medio-alto, tienen dificultades para sostener su tiempo de estudio planeado cuando usan redes sociales de forma recreativa durante momentos de exigencia académica (previo a entregas o parciales), debido a que la disponibilidad constante de contenido en las redes compite con la actividad académica que se habían propuesto realizar. Esto genera, según lo que sugiere la evidencia disponible, menor tiempo efectivo dedicado al estudio.
+
+Encontramos señales de este problema en un estudio con 825 estudiantes universitarios que encontró que la adicción a redes sociales, el miedo a perderse algo (FOMO) y la falta de autocontrol predicen la procrastinación académica, y en otro estudio con 100 estudiantes que encontró que el uso recreativo de Instagram y Facebook se asocia a mayor procrastinación, mientras que el uso académico de WhatsApp se asocia a menor procrastinación.
+
+Sin embargo, todavía necesitamos comprobar varias cosas: si este patrón se replica en nuestro contexto específico (Argentina, Marketing, nivel socioeconómico medio-alto), dado que ambos estudios fueron realizados en otras poblaciones (China y Perú). También necesitamos comprobar si la consecuencia real de este comportamiento es una afectación académica medible (por ejemplo, en las notas), ya que un hallazgo de otro estudio (sobre procrastinación con video corto) encontró que este tipo de comportamiento afecta el sueño y el bienestar, pero no las notas — lo cual pone en duda si "menos tiempo de estudio" se traduce efectivamente en un peor resultado académico o si la consecuencia es de otro tipo. Por último, resta comprobar con qué frecuencia real ocurre este comportamiento en nuestro grupo específico, y qué alternativas (si las hay) usan actualmente para evitarlo.
 
 ## 9. Personas sintéticas y entrevistas
 
