@@ -140,7 +140,7 @@ Nuestra justificación es la siguiente: con la evidencia que tenemos hasta ahora
 
 Preferimos llevar los tres problemas separados hasta la instancia de evaluación (ICE) y hasta las entrevistas reales. Ahí vamos a poder preguntar puntualmente si la distorsión del tiempo aparece siempre acompañada de culpa, o si son cosas que las personas viven por separado. Si la evidencia real muestra que siempre van juntas, los fusionaremos en ese momento; si no, tendremos justificación sólida para mantenerlos como problemas distintos.
 
-## 5-6. Evaluaciones ICE individuales
+## 5. Evaluaciones ICE individuales
 
 ### Integrante 1
 
@@ -270,6 +270,75 @@ Preferimos llevar los tres problemas separados hasta la instancia de evaluación
 - Esta evaluación se basa **exclusivamente** en la evidencia secundaria juntada hasta ahora, que en su mayoría proviene de poblaciones distintas a la del equipo (otros países, otros perfiles socioeconómicos). Ningún puntaje de Confidence debería tomarse como definitivo hasta después de las entrevistas reales.
 - El Problema C tiene, con la evidencia actual, una base mucho más débil que A y B — no porque no sea un problema real, sino porque casi no hay evidencia independiente que lo respalde todavía.
 - No estoy eligiendo un "ganador": el orden numérico de ICE es un punto de partida para la conversación del equipo, no una decisión automática.
+
+## 6. Comparación de evaluaciones
+
+- Principales coincidencias:
+- Principales diferencias:
+- Puntajes modificados y motivo:
+- Inferencias o errores detectados en la IA:
+- Incertidumbres que permanecen:
+
+## 7. Crítica del problema finalista
+
+- Debilidades encontradas:
+- Explicaciones alternativas:
+- Evidencia que podría refutarlo:
+- Respuesta del equipo:
+
+Priorizamos este problema porque:
+
+El criterio ICE más sólido es:
+
+El criterio ICE más incierto es:
+
+La evidencia más fuerte que tenemos es:
+
+La principal debilidad de nuestra elección es:
+
+Podríamos estar equivocados si:
+
+La próxima evidencia que necesitamos obtener es:
+
+## 8. Problema priorizado
+
+### Puntaje ICE
+
+- Impact:
+- Confidence:
+- Ease:
+- ICE:
+
+### Redacción final
+
+[PEGAR PROBLEMA]
+
+### Justificación
+
+[PEGAR DECISIÓN DEL EQUIPO]
+
+## 9. Personas sintéticas y entrevistas
+
+### Persona sintética 1
+
+[PEGAR FICHA]
+
+### Persona sintética 2
+
+[PEGAR FICHA]
+
+### Aprendizajes del role-play
+
+- 
+
+### Guion de entrevista real
+
+1. 
+2. 
+
+### Plan de entrevistas
+
+[PEGAR TABLA]
 
 
 ## Estacionamiento de soluciones
