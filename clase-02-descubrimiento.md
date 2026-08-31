@@ -140,39 +140,137 @@ Nuestra justificación es la siguiente: con la evidencia que tenemos hasta ahora
 
 Preferimos llevar los tres problemas separados hasta la instancia de evaluación (ICE) y hasta las entrevistas reales. Ahí vamos a poder preguntar puntualmente si la distorsión del tiempo aparece siempre acompañada de culpa, o si son cosas que las personas viven por separado. Si la evidencia real muestra que siempre van juntas, los fusionaremos en ese momento; si no, tendremos justificación sólida para mantenerlos como problemas distintos.
 
-## 5. Evaluaciones ICE individuales
+## 5-6. Evaluaciones ICE individuales
 
 ### Integrante 1
 
 | Problema | Impact | Confidence | Ease | ICE | Justificación |
 |---|---|---|---|---|---|
-| A. Procrastinación académica |8 |9 |7 |50,4 |tiene un impacto importante y es relativamente facil de abordar |
-| B. Malestar tras scrollear sin planearlo |7 |8 |8 |44,8 |es relevante y existen buenas posibilidades de resolverlo |
-| C. Percepción distorsionada del tiempo |6 |7 |7 |29,4 |presenta un impacto moderado y requiere algunos recursos |
+| A. Procrastinación académica |8 |9 |7 |5,04 |tiene un impacto importante y es relativamente facil de abordar |
+| B. Malestar tras scrollear sin planearlo |7 |8 |8 |4,48 |es relevante y existen buenas posibilidades de resolverlo |
+| C. Percepción distorsionada del tiempo |6 |7 |7 |2,94 |presenta un impacto moderado y requiere algunos recursos |
 
 ### Integrante 2
 
 | Problema | Impact | Confidence | Ease | ICE | Justificación |
 |---|---|---|---|---|---|
-| A. Procrastinación académica |9 |8 |7 |50,4 |puede generar una mejora significativa y es viable de implementar |
-| B. Malestar tras scrollear sin planearlo |8 |8 |7 |44,8 |es un problema relevante con una solucion bastante accesible |
-| C. Percepción distorsionada del tiempo |6 |8 |6 |26,8 |su impacto es menor, aunque existe cierta facilidad para resolverlo |
+| A. Procrastinación académica |9 |8 |7 |5,04 |puede generar una mejora significativa y es viable de implementar |
+| B. Malestar tras scrollear sin planearlo |8 |8 |7 |4,48 |es un problema relevante con una solucion bastante accesible |
+| C. Percepción distorsionada del tiempo |6 |8 |6 |2,68 |su impacto es menor, aunque existe cierta facilidad para resolverlo |
 
 ### Integrante 3
 
 | Problema | Impact | Confidence | Ease | ICE | Justificación |
 |---|---|---|---|---|---|
-| A. Procrastinación académica |8 |8 |8 |51,2 |es prioritario y presenta buenas condiciones para ser solucionado |
-| B. Malestar tras scrollear sin planearlo |7 |9 |7 |44,1 |existe alta certeza sobre su importancia y una solución viable |
-| C. Percepción distorsionada del tiempo |6 |7 |8 |33,6 |es relativamente sencillo de abordar, aunque su impacto es menor |
+| A. Procrastinación académica |8 |8 |8 |5,12 |es prioritario y presenta buenas condiciones para ser solucionado |
+| B. Malestar tras scrollear sin planearlo |7 |9 |7 |4,41 |existe alta certeza sobre su importancia y una solución viable |
+| C. Percepción distorsionada del tiempo |6 |7 |8 |3,36 |es relativamente sencillo de abordar, aunque su impacto es menor |
 
 ### Integrante 4
 
 | Problema | Impact | Confidence | Ease | ICE | Justificación |
 |---|---|---|---|---|---|
-| A. Procrastinación académica |9 |9 |6 |48,6 |tiene gran impacto aunque su implementacion puede requerir mas esfuerzo |
-| B. Malestar tras scrollear sin planearlo |8 |7 |8 |44,8 |es importante y cuenta con una solución relativamente sencilla |
-| C. Percepción distorsionada del tiempo |7 |7 |7 |34,3 |tiene un impacto medio y puede resolverse con recursos moderados |
+| A. Procrastinación académica |9 |9 |6 |4,86 |tiene gran impacto aunque su implementacion puede requerir mas esfuerzo |
+| B. Malestar tras scrollear sin planearlo |8 |7 |8 |4,48 |es importante y cuenta con una solución relativamente sencilla |
+| C. Percepción distorsionada del tiempo |7 |7 |7 |3,43 |tiene un impacto medio y puede resolverse con recursos moderados |
+
+### Evaluación ICE de la IA
+
+## Problema A — Procrastinación académica asociada al uso de redes sociales
+
+**Impact: 6**
+- Justificación: hay evidencia consistente de que el uso de redes sociales predice procrastinación académica, pero la consecuencia concreta y medible (impacto en notas) no está confirmada — de hecho, un hallazgo la contradice parcialmente.
+- Evidencia utilizada: estudio con 825 estudiantes (Frontiers) y estudio con 100 estudiantes (ResearchGate), ambos muestran correlación entre uso de redes y procrastinación.
+- Inferencia: que esta procrastinación se traduce en "consecuencias importantes" para el estudiante — los estudios miden procrastinación como variable, no consecuencias concretas como notas bajas o estrés medido.
+- Información faltante: si en nuestro grupo esto afecta más el rendimiento, el nivel de estrés, o ninguno de los dos de forma notoria.
+- Qué podría subir o bajar el puntaje: si las entrevistas reales muestran consecuencias académicas concretas (ej. entregas tarde, notas bajas), el Impact subiría a 7-8. Si en cambio la gente reporta que "procrastina pero igual entrega bien", bajaría a 4-5.
+
+**Confidence: 6**
+- Justificación: dos fuentes son estudios formales con metodología y muestras considerables, y coinciden en la dirección del hallazgo (más uso recreativo de redes → más procrastinación).
+- Evidencia utilizada: mismos dos estudios mencionados arriba.
+- Inferencia: que esto aplica igual a un perfil de nivel socioeconómico medio-alto estudiando Marketing en Argentina — ninguno de los estudios fue hecho en esa población.
+- Información faltante: cualquier evidencia local (Argentina) o específica de estudiantes de Marketing.
+- Qué podría subir o bajar el puntaje: si encuentran un estudio o encuesta local con perfil similar, el Confidence subiría. Si las entrevistas reales contradicen el patrón, bajaría.
+
+**Ease: 8**
+- Justificación: es un comportamiento que el propio equipo y sus compañeros de curso probablemente reconozcan en sí mismos, con acceso inmediato a entrevistados.
+- Evidencia utilizada: ninguna fuente externa — esto se basa en el contexto que el equipo ya describió (acceso directo a compañeros de facultad).
+- Inferencia: que los compañeros van a estar dispuestos a hablar abiertamente de su propia procrastinación (podría haber cierto pudor o deseabilidad social al responder).
+- Información faltante: si hay resistencia a admitir este comportamiento en una entrevista formal.
+- Qué podría subir o bajar el puntaje: si en la práctica cuesta conseguir testimonios honestos (por vergüenza), el Ease real sería más bajo de lo estimado acá.
+
+**ICE = (6 × 6 × 8) / 100 = 2.88**
+
+---
+
+## Problema B — Malestar (culpa, fatiga mental) tras scrollear sin haberlo planeado
+
+**Impact: 5**
+- Justificación: hay evidencia de fatiga y pensamiento intrusivo asociados al uso desregulado, pero la mayoría de la evidencia sobre "culpa" específicamente proviene de relatos personales, no de mediciones de consecuencias concretas.
+- Evidencia utilizada: estudio con 412 estudiantes en India (fatiga y pensamiento intrusivo), blogs personales sobre culpa tras scrollear.
+- Inferencia: que esta culpa/fatiga tiene un impacto real más allá de la molestia momentánea (ej. que afecte el ánimo para otras actividades) — no está comprobado.
+- Información faltante: si esta sensación tiene alguna consecuencia posterior (ej. afecta el sueño, el ánimo, otra actividad) o se queda en un malestar pasajero sin mayor efecto.
+- Qué podría subir o bajar el puntaje: si las entrevistas muestran que esta culpa deriva en otra consecuencia concreta (ej. dejar de hacer otra tarea por el mal humor que genera), el Impact subiría. Si la gente dice "lo siento un segundo y se me pasa", bajaría a 3-4.
+
+**Confidence: 4**
+- Justificación: solo una de las fuentes es un estudio formal (India), el resto son blogs y ensayos personales — buena cantidad de señales, pero de baja rigurosidad metodológica.
+- Evidencia utilizada: estudio de fatiga/pensamiento intrusivo + varios blogs (Substack, Real Simple).
+- Inferencia: que los relatos de blogs (que no son estudios) representan una experiencia generalizada y no casos aislados o exagerados para efecto narrativo (los blogs suelen dramatizar para enganchar lectores).
+- Información faltante: encuestas o estudios formales que midan específicamente "culpa post-scrolleo" como variable (el estudio de India mide fatiga y pensamiento intrusivo, no culpa exactamente).
+- Qué podría subir o bajar el puntaje: si encuentran un estudio formal sobre culpa específicamente, el Confidence subiría bastante. Ahora mismo depende mucho de fuentes no académicas.
+
+**Ease: 7**
+- Justificación: es una experiencia muy reconocible y probablemente el equipo y sus compañeros la vivan seguido, aunque hablar de "culpa" puede ser un poco más íntimo que hablar de procrastinación académica.
+- Evidencia utilizada: ninguna externa, basado en el contexto del equipo.
+- Inferencia: que la gente va a poder poner en palabras esta sensación con precisión (a veces es difícil verbalizar emociones difusas).
+- Información faltante: si en la práctica cuesta que los entrevistados describan esto con detalle en vez de responder de forma vaga ("sí, me pasa a veces").
+- Qué podría subir o bajar el puntaje: si el guion de entrevistas logra preguntas que faciliten contar ejemplos concretos, el Ease se mantiene alto. Si las respuestas son muy genéricas, en la práctica sería más bajo.
+
+**ICE = (5 × 4 × 7) / 100 = 1.4**
+
+---
+
+## Problema C — Percepción distorsionada del tiempo transcurrido scrolleando
+
+**Impact: 4**
+- Justificación: la única consecuencia identificada es "perder más tiempo del previsto", sin evidencia de una consecuencia mayor (académica, emocional, social) específicamente atribuible a la distorsión de tiempo en sí (diferenciada de B).
+- Evidencia utilizada: un relato de blog describiendo abrir el teléfono "por un segundo" y notar recién después que pasaron 10-20 minutos.
+- Inferencia: que esta distorsión de tiempo constituye un problema por sí solo, y no es simplemente la forma en que se manifiesta el Problema B — esta es la inferencia más débil de los tres problemas.
+- Información faltante: cualquier consecuencia concreta distinta a la de B, y datos objetivos (tiempo real vs. tiempo percibido).
+- Qué podría subir o bajar el puntaje: si las entrevistas muestran que la persona identifica esta distorsión como algo separado de la culpa (con una consecuencia propia, como llegar tarde a algo), el Impact subiría. Si en la práctica siempre aparece junto a la culpa de B, esto sugeriría que no es un problema separado y su Impact individual perdería sentido.
+
+**Confidence: 2**
+- Justificación: la evidencia se reduce a un solo relato personal de blog, sin ningún estudio formal ni una segunda fuente que lo respalde de forma independiente.
+- Evidencia utilizada: el mismo blog citado en la ficha del Problema C.
+- Inferencia: que esta experiencia es generalizable a otras personas más allá del autor del blog — no hay forma de confirmarlo con la evidencia actual.
+- Información faltante: cualquier estudio o encuesta que mida objetivamente la brecha entre tiempo percibido y tiempo real de uso de redes.
+- Qué podría subir o bajar el puntaje: si encuentran más fuentes (aunque sean informales) que describan lo mismo de forma independiente, el Confidence subiría levemente. Sigue siendo el problema con menos sustento de los tres.
+
+**Ease: 6**
+- Justificación: acceder a gente para hablar del tema es fácil, pero validar específicamente la "distorsión de tiempo" (en vez de la culpa o la procrastinación) requiere preguntas más precisas, y potencialmente comparar con datos objetivos de uso de pantalla — lo cual agrega complejidad a la validación real.
+- Evidencia utilizada: ninguna externa.
+- Inferencia: que se puede aislar esta variable en una entrevista sin que se mezcle con B.
+- Información faltante: si el equipo tiene forma de contrastar el relato con el tiempo real de pantalla del entrevistado (por ejemplo, pidiendo que muestren su reporte de screen time).
+- Qué podría subir o bajar el puntaje: si logran comparar percepción vs. dato real de pantalla, el Ease efectivamente sube porque tendrían una forma más objetiva de validar. Sin eso, depende solo del relato subjetivo.
+
+**ICE = (4 × 2 × 6) / 100 = 0.48**
+
+---
+
+### Tabla comparativa
+
+| Problema | Impact | Confidence | Ease | ICE |
+|---|---|---|---|---|
+| A. Procrastinación académica | 6 | 6 | 8 | 2.88 |
+| B. Malestar tras scrollear sin planear | 5 | 4 | 7 | 1.4 |
+| C. Percepción distorsionada del tiempo | 4 | 2 | 6 | 0.48 |
+
+### Advertencias importantes
+
+- Esta evaluación se basa **exclusivamente** en la evidencia secundaria juntada hasta ahora, que en su mayoría proviene de poblaciones distintas a la del equipo (otros países, otros perfiles socioeconómicos). Ningún puntaje de Confidence debería tomarse como definitivo hasta después de las entrevistas reales.
+- El Problema C tiene, con la evidencia actual, una base mucho más débil que A y B — no porque no sea un problema real, sino porque casi no hay evidencia independiente que lo respalde todavía.
+- No estoy eligiendo un "ganador": el orden numérico de ICE es un punto de partida para la conversación del equipo, no una decisión automática.
+
 
 ## Estacionamiento de soluciones
 
