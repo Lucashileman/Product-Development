@@ -318,19 +318,21 @@ Si la mayoría de los entrevistados reales reporta que este comportamiento no le
 ### Respuesta del equipo
 Nos quedamos con este problema!
 
-Priorizamos este problema porque:
+### Decisión del equipo
 
-El criterio ICE más sólido es:
+- Priorizamos este problema porque: es el que tiene mayor puntaje ICE, respaldado por dos estudios académicos formales (no solo relatos o blogs), y porque tenemos acceso directo e inmediato a usuarios que probablemente reconozcan este comportamiento en sí mismos.
 
-El criterio ICE más incierto es:
+- El criterio ICE más sólido es: Ease, porque el equipo y nuestros compañeros de curso somos parte del público que vive esta situación, así que conseguir entrevistados no debería ser una barrera.
 
-La evidencia más fuerte que tenemos es:
+- El criterio ICE más incierto es: Confidence, porque la evidencia que tenemos proviene de poblaciones fuera de Argentina (China, Perú) y no específicas de estudiantes de Marketing ni de nivel socioeconómico medio-alto, además de que un estudio (Universidad de Kansas) encontró que este tipo de procrastinación no afecta las notas, lo cual cuestiona qué tan grave es la consecuencia real.
 
-La principal debilidad de nuestra elección es:
+- La evidencia más fuerte que tenemos es: los dos estudios con metodología y muestras grandes (825 y 100 estudiantes respectivamente) que muestran correlación entre el uso recreativo de redes sociales y la procrastinación académica.
 
-Podríamos estar equivocados si:
+- La principal debilidad de nuestra elección es: no tenemos evidencia de una consecuencia concreta y medible (más allá de la correlación), y existe al menos un hallazgo que sugiere que este comportamiento no impacta las notas, que es lo que intuitivamente asumimos como la consecuencia más relevante.
 
-La próxima evidencia que necesitamos obtener es:
+- Podríamos estar equivocados si: al entrevistar gente real, la mayoría cuenta que procrastina con redes pero de todas formas cumple con sus entregas y no le genera un problema real — en ese caso, estaríamos priorizando un comportamiento frecuente pero de bajo impacto real, en vez de un problema genuino.
+
+- La próxima evidencia que necesitamos obtener es: relatos concretos de estudiantes de nuestro propio entorno (Marketing, 2do año) sobre situaciones puntuales donde este comportamiento les generó una consecuencia real y notoria (no solo "sí, me pasa"), para confirmar si el Impact que le pusimos (6) se sostiene o hay que ajustarlo.
 
 ## 8. Problema priorizado
 
