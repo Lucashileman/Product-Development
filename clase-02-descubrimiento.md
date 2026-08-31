@@ -281,10 +281,42 @@ Preferimos llevar los tres problemas separados hasta la instancia de evaluación
 
 ## 7. Crítica del problema finalista
 
-- Debilidades encontradas:
-- Explicaciones alternativas:
-- Evidencia que podría refutarlo:
-- Respuesta del equipo:
+**Problema evaluado:** Procrastinación académica asociada al uso de redes sociales
+
+### 1. ¿El impacto está demostrado o inferido?
+Es mayormente inferido. Los dos estudios que citamos (Frontiers y ResearchGate) miden **correlación** entre uso de redes y procrastinación, no consecuencias concretas medidas (notas, tiempo perdido en horas, entregas tardías reales). Además, el estudio de la Universidad de Kansas —que usamos para otro problema pero es relevante acá— encontró que la procrastinación vía video corto afectó sueño y bienestar, pero explícitamente **no** afectó las notas. Esto debilita la idea de que el impacto sea "académico" en el sentido estricto.
+
+### 2. ¿Confundimos frecuencia con importancia?
+Es una posibilidad real. Que el fenómeno aparezca en varios estudios y sea muy reconocible entre compañeros no significa que sus consecuencias sean graves — puede ser un comportamiento muy frecuente pero de bajo impacto real (una entrega que se atrasa 20 minutos no es lo mismo que reprobar una materia). El equipo le puso Impact 6-7 basándose en gran parte en lo reconocible que es, más que en evidencia de una consecuencia grave.
+
+### 3. ¿La evidencia proviene de fuentes suficientemente diversas?
+No del todo. Las dos fuentes principales son estudios académicos, lo cual es bueno, pero ambos vienen de poblaciones fuera de Argentina (China y Perú) y ninguno es específico de estudiantes de Marketing o de nivel socioeconómico medio-alto. Tampoco hay una fuente cualitativa (foro, reseña, testimonio directo) que sostenga el hallazgo desde otro ángulo — son dos estudios cuantitativos del mismo tipo de metodología (encuestas correlacionales).
+
+### 4. ¿Podría ser un síntoma de otro problema?
+Sí. Podría ser un síntoma de: falta de planificación del tiempo de estudio en general (no específico de redes sociales), o de que la tarea en sí resulta poco estimulante comparada con el contenido de las redes. En ese caso, "procrastinación con redes sociales" sería la manifestación visible de un problema más amplio de gestión del tiempo o motivación académica, y no un problema aislado vinculado puntualmente a las redes.
+
+### 5. ¿Existe una solución escondida en su redacción?
+No de forma evidente en cómo lo tienen redactado — la ficha describe el comportamiento y la consecuencia sin mencionar una herramienta o funcionalidad. Sí hay que vigilar esto cuando lleguen al Paso 11 (redacción final), porque es fácil deslizar frases como "necesitan una forma de bloquear las redes", que ya estaría sugiriendo una solución.
+
+### 6. ¿Lo elegimos principalmente porque tenemos fácil acceso a usuarios?
+Es una duda válida para que el equipo se haga honestamente. El Ease le quedó puntuado alto (8) precisamente porque ustedes mismos son parte del público afectado. Vale la pena preguntarse: si este problema tuviera el mismo Impact y Confidence pero fuera difícil de investigar, ¿lo seguirían priorizando? Si la respuesta es no, el Ease está pesando más de lo que debería en la decisión.
+
+### 7. ¿Qué explicaciones alternativas podrían existir?
+- Que el estudiante procrastina por evitar una tarea que le genera ansiedad o que no sabe cómo abordar, y las redes son solo el "escape" disponible en ese momento (no la causa).
+- Que el patrón de procrastinación exista independientemente de las redes sociales, y que estas simplemente sean la distracción más visible/moderna, reemplazando lo que antes eran otras formas de distracción.
+
+### 8. ¿Qué evidencia contradice nuestra interpretación?
+El hallazgo de la Universidad de Kansas (sin impacto en notas) es la contradicción más directa que tenemos disponible: sugiere que aunque el comportamiento de procrastinar con redes exista, no necesariamente se traduce en peor rendimiento académico medible, que es la consecuencia que el equipo asume como más relevante.
+
+### 9. ¿Qué hallazgo reduciría su puntaje?
+- Si en las entrevistas reales varios estudiantes dicen que procrastinan con redes pero igual entregan a tiempo y con buena nota (sin consecuencia real).
+- Si describen que el problema de fondo es otro (por ejemplo, dificultad para arrancar una tarea, no las redes en sí), bajaría tanto Impact como la validez de la redacción del problema.
+
+### 10. ¿Qué deberíamos encontrar para descartarlo?
+Si la mayoría de los entrevistados reales reporta que este comportamiento no les genera ninguna consecuencia que les importe (ni de tiempo, ni de nota, ni emocional), y que lo ven como algo trivial y sin fricción real en su vida académica, sería motivo suficiente para descartarlo o bajarlo de prioridad frente a los otros dos problemas.
+
+### Respuesta del equipo
+Nos quedamos con este problema!
 
 Priorizamos este problema porque:
 
