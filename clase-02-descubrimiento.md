@@ -275,15 +275,15 @@ Preferimos llevar los tres problemas separados hasta la instancia de evaluación
 
 **Principales coincidencias**
 
-- El **orden de prioridad es idéntico** en las 5 evaluaciones (la tuya y las 4 individuales): A > B > C. Nadie invierte el ranking.
+- El **orden de prioridad es idéntico** en las 5 evaluaciones (la IA y las 4 individuales): A > B > C. Nadie invierte el ranking.
 - La **Facilidad** es el criterio donde más se alinean: todos ubican a los tres problemas en un rango parecido (6-8), reflejando que el acceso a entrevistados no es el cuello de botella en ningún caso.
 - Todos coinciden en que **A es el problema más sólido** para avanzar, aunque por distintas razones (vos por evidencia, ellos por percepción/experiencia propia).
 
 **Principales diferencias**
 
-- La brecha más grande está en **Confianza**, sobre todo en el Problema C: vos le pusiste 2 (una sola fuente, un blog), mientras el promedio del equipo es 7,25 — una diferencia de más de 5 puntos. Algo similar pasa en B (vos: 4, equipo: 8).
-- En **Impacto**, tu evaluación es sistemáticamente más conservadora (6/5/4) que la del equipo (8,5/7,5/6,25) en los tres problemas.
-- Como consecuencia, tus puntajes de HIELO están mucho más separados entre sí (2,88 / 1,4 / 0,48), mientras que en las evaluaciones individuales B y C quedan bastante parejos entre ellos (ej. Integrante 4: 4,86 / 4,48 / 3,43). El equipo "aplana" la diferencia entre problemas; vos la marcás fuerte.
+- La brecha más grande está en **Confianza**, sobre todo en el Problema C: la IA le puso 2 (una sola fuente, un blog), mientras el promedio del equipo es 7,25 — una diferencia de más de 5 puntos. Algo similar pasa en B (IA: 4, equipo: 8).
+- En **Impacto**, evaluación de la IA es sistemáticamente más conservadora (6/5/4) que la del equipo (8,5/7,5/6,25) en los tres problemas.
+- Como consecuencia, los puntajes de ICE de la IA están mucho más separados entre sí (2,88 / 1,4 / 0,48), mientras que en las evaluaciones individuales B y C quedan bastante parejos entre ellos (ej. Integrante 4: 4,86 / 4,48 / 3,43). El equipo "aplana" la diferencia entre problemas; la IA la marca fuerte.
 
 **Puntajes modificados y motivo**
 
