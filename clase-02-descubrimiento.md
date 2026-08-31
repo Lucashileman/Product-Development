@@ -428,14 +428,50 @@ Sin embargo, todavía necesitamos comprobar varias cosas: si este patrón se rep
 - Notamos que preguntar directamente "¿procrastinás con redes sociales?" invita a una respuesta con deseabilidad social (minimizar el comportamiento) — algo que ya habíamos anticipado como riesgo en la evaluación de Ease del Problema A, y el role-play lo confirmó: es más productivo preguntar por la última vez concreta que por el hábito en general.
 - No logramos, ni actuando los personajes, aislar con claridad la distorsión del tiempo (Problema C) de la culpa (Problema B) — cada vez que uno "confesaba" haber perdido más tiempo del previsto, aparecía enseguida algo de culpa asociada. Esto refuerza, con una señal más (aunque todavía no es evidencia real), la sospecha de que C podría ser síntoma de B.
 
-### Guion de entrevista real
+## Guion de entrevista real
 
-1. 
-2. 
+**Introducción (no se cuenta el problema que estamos investigando, para no sesgar la respuesta)**
 
-### Plan de entrevistas
+> "Estamos haciendo una investigación de la facultad sobre cómo los estudiantes organizan su tiempo de estudio. Te voy a hacer algunas preguntas sobre situaciones concretas que te hayan pasado, no hace falta que pienses una respuesta 'correcta', nos interesa lo que realmente te pasó."
 
-[PEGAR TABLA]
+**Bloque 1 — Contexto general**
+
+1. Contame cómo es una semana típica tuya con entregas y parciales — ¿cómo organizás cuándo vas a estudiar cada cosa?
+2. ¿Dónde y cuándo sueles estudiar? ¿Solo, en grupo, en casa, en la facu?
+
+**Bloque 2 — Comportamiento específico**
+
+3. Pensá en la última vez que te propusiste estudiar o avanzar con un trabajo y terminaste haciendo otra cosa en el celular. Contame qué pasó, paso a paso.
+4. ¿Qué app era? ¿Qué buscabas hacer cuando la abriste (revisar algo puntual, distraerte, no sabías bien)?
+5. ¿Cuánto tiempo pensás que pasó ahí? ¿Y cuánto tiempo real había pasado cuando te diste cuenta? *(apunta a validar o descartar el Problema C sin nombrarlo)*
+6. ¿Qué pasó con la entrega o el estudio al final? ¿Llegaste a tiempo, tuviste que apurarte, la calidad se resintió, o no cambió nada?
+
+**Bloque 3 — Frecuencia y consecuencia**
+
+7. ¿Te pasa seguido o fue algo puntual de esa vez? Contame otro ejemplo si se te ocurre.
+8. Después de que te pasa esto, ¿sentís algo en particular (culpa, cansancio, nada en especial)? Contame la última vez que sentiste eso. *(apunta al Problema B, sin nombrarlo, para ver si aparece espontáneamente junto con A o C)*
+9. ¿Alguna vez esto te afectó de una forma que te importó de verdad — una nota, un reto, perder algo importante? Contame qué pasó.
+
+**Bloque 4 — Estrategias actuales**
+
+10. ¿Hiciste alguna vez algo para evitar que te pase esto (apagar notificaciones, apps de bloqueo, dejar el celular en otro lado)? ¿Qué tal te funcionó?
+11. Si pudieras cambiar una sola cosa de cómo usás el celular mientras estudiás, ¿cuál sería?
+
+**Cierre**
+
+12. ¿Hay algo de esto que no te pregunté y te parece importante contar?
+
+---
+
+## Plan de entrevistas
+
+| # | Perfil buscado | Relación con persona sintética | Cantidad objetivo | Modalidad | Responsable | Estado |
+|---|---|---|---|---|---|---|
+| 1 | Estudiante Marketing 2do año, usa Instagram/TikTok recreativamente mientras estudia | Persona 1 — "El que posterga por FOMO" | 3 | Presencial/facultad | — | Pendiente |
+| 2 | Estudiante Marketing 2do año, usa WhatsApp mayormente con fines académicos | Persona 2 — "El que separa lo académico de lo recreativo" | 2 | Presencial/facultad | — | Pendiente |
+| 3 | Estudiante Marketing 2do año, perfil variado (no preseleccionado) | Control / validación cruzada | 3 | Videollamada o presencial | — | Pendiente |
+| 4 | Estudiante de otra carrera (fuera del perfil inicial) | Fuera de alcance principal, pero útil como contraste | 1 | Videollamada | — | Pendiente |
+
 
 ## Cierre del equipo
 
