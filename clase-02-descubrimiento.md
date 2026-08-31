@@ -140,6 +140,39 @@ Nuestra justificación es la siguiente: con la evidencia que tenemos hasta ahora
 
 Preferimos llevar los tres problemas separados hasta la instancia de evaluación (ICE) y hasta las entrevistas reales. Ahí vamos a poder preguntar puntualmente si la distorsión del tiempo aparece siempre acompañada de culpa, o si son cosas que las personas viven por separado. Si la evidencia real muestra que siempre van juntas, los fusionaremos en ese momento; si no, tendremos justificación sólida para mantenerlos como problemas distintos.
 
+## 5. Evaluaciones ICE individuales
+
+### Integrante 1
+
+| Problema | Impact | Confidence | Ease | ICE | Justificación |
+|---|---|---|---|---|---|
+| A. Procrastinación académica | | | | | |
+| B. Malestar tras scrollear sin planearlo | | | | | |
+| C. Percepción distorsionada del tiempo | | | | | |
+
+### Integrante 2
+
+| Problema | Impact | Confidence | Ease | ICE | Justificación |
+|---|---|---|---|---|---|
+| A. Procrastinación académica | | | | | |
+| B. Malestar tras scrollear sin planearlo | | | | | |
+| C. Percepción distorsionada del tiempo | | | | | |
+
+### Integrante 3
+
+| Problema | Impact | Confidence | Ease | ICE | Justificación |
+|---|---|---|---|---|---|
+| A. Procrastinación académica | | | | | |
+| B. Malestar tras scrollear sin planearlo | | | | | |
+| C. Percepción distorsionada del tiempo | | | | | |
+
+### Integrante 4
+
+| Problema | Impact | Confidence | Ease | ICE | Justificación |
+|---|---|---|---|---|---|
+| A. Procrastinación académica | | | | | |
+| B. Malestar tras scrollear sin planearlo | | | | | |
+| C. Percepción distorsionada del tiempo | | | | | |
 
 ## Estacionamiento de soluciones
 
