@@ -146,33 +146,33 @@ Preferimos llevar los tres problemas separados hasta la instancia de evaluación
 
 | Problema | Impact | Confidence | Ease | ICE | Justificación |
 |---|---|---|---|---|---|
-| A. Procrastinación académica | | | | | |
-| B. Malestar tras scrollear sin planearlo | | | | | |
-| C. Percepción distorsionada del tiempo | | | | | |
+| A. Procrastinación académica |8 |9 |7 |50,4 |tiene un impacto importante y es relativamente facil de abordar |
+| B. Malestar tras scrollear sin planearlo |7 |8 |8 |44,8 |es relevante y existen buenas posibilidades de resolverlo |
+| C. Percepción distorsionada del tiempo |6 |7 |7 |29,4 |presenta un impacto moderado y requiere algunos recursos |
 
 ### Integrante 2
 
 | Problema | Impact | Confidence | Ease | ICE | Justificación |
 |---|---|---|---|---|---|
-| A. Procrastinación académica | | | | | |
-| B. Malestar tras scrollear sin planearlo | | | | | |
-| C. Percepción distorsionada del tiempo | | | | | |
+| A. Procrastinación académica |9 |8 |7 |50,4 |puede generar una mejora significativa y es viable de implementar |
+| B. Malestar tras scrollear sin planearlo |8 |8 |7 |44,8 |es un problema relevante con una solucion bastante accesible |
+| C. Percepción distorsionada del tiempo |6 |8 |6 |26,8 |su impacto es menor, aunque existe cierta facilidad para resolverlo |
 
 ### Integrante 3
 
 | Problema | Impact | Confidence | Ease | ICE | Justificación |
 |---|---|---|---|---|---|
-| A. Procrastinación académica | | | | | |
-| B. Malestar tras scrollear sin planearlo | | | | | |
-| C. Percepción distorsionada del tiempo | | | | | |
+| A. Procrastinación académica |8 |8 |8 |51,2 |es prioritario y presenta buenas condiciones para ser solucionado |
+| B. Malestar tras scrollear sin planearlo |7 |9 |7 |44,1 |existe alta certeza sobre su importancia y una solución viable |
+| C. Percepción distorsionada del tiempo |6 |7 |8 |33,6 |es relativamente sencillo de abordar, aunque su impacto es menor |
 
 ### Integrante 4
 
 | Problema | Impact | Confidence | Ease | ICE | Justificación |
 |---|---|---|---|---|---|
-| A. Procrastinación académica | | | | | |
-| B. Malestar tras scrollear sin planearlo | | | | | |
-| C. Percepción distorsionada del tiempo | | | | | |
+| A. Procrastinación académica |9 |9 |6 |48,6 |tiene gran impacto aunque su implementacion puede requerir mas esfuerzo |
+| B. Malestar tras scrollear sin planearlo |8 |7 |8 |44,8 |es importante y cuenta con una solución relativamente sencilla |
+| C. Percepción distorsionada del tiempo |7 |7 |7 |34,3 |tiene un impacto medio y puede resolverse con recursos moderados |
 
 ## Estacionamiento de soluciones
 
