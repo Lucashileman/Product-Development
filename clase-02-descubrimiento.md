@@ -437,10 +437,6 @@ Sin embargo, todavía necesitamos comprobar varias cosas: si este patrón se rep
 
 [PEGAR TABLA]
 
-
-## Estacionamiento de soluciones
-
--
 ## Cierre del equipo
 
 El problema que decidimos investigar es:
@@ -454,3 +450,6 @@ Que estos hallazgos, obtenidos en poblaciones de otros países (China, Perú) y 
 
 La pregunta más importante para los usuarios reales es:
 La última vez que te pasó esto, ¿qué estabas por hacer, y qué pasó finalmente con esa entrega o ese estudio? — para reemplazar la respuesta genérica ("sí, me pasa siempre") por un ejemplo concreto que confirme o desmienta si hay una consecuencia real medible.
+
+## Estacionamiento de soluciones
+
