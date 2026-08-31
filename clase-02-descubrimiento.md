@@ -45,17 +45,56 @@
 
 ## 3. Fichas de problemas
 
-### Problema A
+### Problema A: Procrastinación académica asociada al uso de redes sociales
 
-[PEGAR FICHA]
+- Problema observado: El estudiante tiene intención de estudiar o realizar una tarea, pero termina usando redes sociales en su lugar, postergando la actividad académica.
+- Usuario: Estudiantes universitarios, en nuestro caso de Marketing, 2do año, nivel socioeconómico medio-alto.
+- Contexto: Momentos en los que deberían estar estudiando o cumpliendo con una entrega, especialmente bajo presión de tiempo.
+- Progreso buscado: Avanzar con el estudio o la entrega en el tiempo que se habían propuesto.
+- Fricción observada: La disponibilidad constante de contenido atractivo (redes) compite con la actividad académica planeada.
+- Consecuencia: Menos tiempo efectivo de estudio, entregas más apuradas o de último momento, según lo que sugiere la literatura.
+- Evidencia: Un estudio con 825 estudiantes universitarios encontró que la adicción a redes sociales, el FOMO y la falta de autocontrol predicen la procrastinación académica. Otro estudio con 100 estudiantes encontró que el uso recreativo de Instagram y Facebook se asocia a mayor procrastinación, mientras que el uso académico de WhatsApp se asocia a menor procrastinación.
+- Fuentes: [Frontiers in Psychology](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1668567/full), [ResearchGate](https://www.researchgate.net/publication/390228589_Social_Media_and_Academic_Procrastination_in_College_Students)
+- Frecuencia aparente: Aparece en al menos dos estudios académicos distintos, con metodologías propias (no la misma fuente repetida).
+- Comportamiento observable: Abrir la app "para un momento" mientras se supone que se está estudiando, revisar el teléfono ante cualquier notificación.
+- Alternativas actuales: Ninguna identificada específicamente en la evidencia encontrada — es un dato que falta y hay que preguntar en las entrevistas.
+- Acceso a usuarios: Alto — es un comportamiento que probablemente varios compañeros del curso reconozcan en sí mismos.
+- Supuestos: Suponemos que esto aplica igual a nuestro perfil (Marketing, nivel socioeconómico medio-alto) aunque los estudios se hicieron en otras poblaciones (China, Perú).
+- Evidencia faltante: Confirmar con entrevistas reales si el patrón se repite en nuestro contexto, y si afecta más el estudio, el trabajo, o ambos.
 
-### Problema B
+### Problema B: Malestar (culpa, fatiga mental) después de scrollear sin haberlo planeado
 
-[PEGAR FICHA]
+- Problema observado: El estudiante scrollea sin haberlo decidido conscientemente y luego siente culpa, cansancio mental o frustración consigo mismo.
+- Usuario: Jóvenes universitarios en general, no necesariamente en un momento de estudio específico.
+- Contexto: Cualquier momento del día, especialmente cuando buscaban una distracción breve o un descanso.
+- Progreso buscado: Descansar brevemente o distraerse sin que eso afecte su ánimo o su percepción de sí mismos.
+- Fricción observada: El "chequeo rápido" se extiende más de lo previsto y termina generando una sensación negativa en vez del alivio buscado.
+- Consecuencia: Culpa, fatiga mental, sensación de haber "perdido el tiempo".
+- Evidencia: Varios blogs y ensayos personales describen el scrolleo como un mecanismo de auto-regulación emocional que termina generando más estrés o culpa en vez del alivio esperado. Un estudio con 412 estudiantes en India encontró correlación entre el uso desregulado de redes, el pensamiento intrusivo y la fatiga.
+- Fuentes: [Substack — "You're Scrolling Again"](https://www.goodreads.com/author_blog_posts/25716510-you-re-scrolling-again-aren-t-you), [Real Simple](https://www.aol.com/articles/psychologists-share-best-way-stop-210000340.html), [Journal of Interdisciplinary Studies in Education](https://ojed.org/jise/article/view/7056)
+- Frecuencia aparente: La parte de "fatiga" tiene un estudio académico que la respalda; la parte de "culpa" solo aparece en blogs personales, no en estudios formales.
+- Comportamiento observable: Revisar el teléfono repetidamente, seguir scrolleando incluso reconociendo que "no debería".
+- Alternativas actuales: No identificadas en la evidencia — falta indagar si usan algún mecanismo para cortar el hábito.
+- Acceso a usuarios: Alto, es una experiencia muy reconocible entre pares.
+- Supuestos: Suponemos que esta culpa afecta el bienestar general del estudiante, no solo es una molestia pasajera — esto todavía no está comprobado con evidencia directa de nuestro grupo.
+- Evidencia faltante: Confirmar si esta culpa tiene alguna consecuencia concreta (ej. afecta el ánimo para seguir estudiando después) o si es solo un comentario pasajero sin impacto real.
 
-### Problema C
+### Problema C: Percepción distorsionada del tiempo transcurrido scrolleando
 
-[PEGAR FICHA]
+- Problema observado: El estudiante abre la red social "por un momento" y subestima significativamente cuánto tiempo pasó realmente scrolleando.
+- Usuario: Estudiantes y jóvenes en general.
+- Contexto: Sesiones cortas de "chequeo rápido" (revisar una notificación, responder un mensaje) que se extienden sin que la persona lo perciba.
+- Progreso buscado: Hacer un chequeo breve y volver rápido a la actividad que estaba haciendo antes.
+- Fricción observada: No hay una señal clara que le indique a la persona cuánto tiempo lleva scrolleando, lo cual dificulta cortar a tiempo.
+- Consecuencia: Pérdida de tiempo mayor a la esperada, que después se descubre casi por sorpresa.
+- Evidencia: Relatos en blogs describen abrir el teléfono "por un segundo" y notar recién después de 10 a 20 minutos que pasó mucho más tiempo del previsto.
+- Fuentes: [Goodreads/Substack](https://www.goodreads.com/author_blog_posts/25716510-you-re-scrolling-again-aren-t-you?tab=book)
+- Frecuencia aparente: Baja confianza — es un solo relato personal, no hay estudio que mida esto de forma objetiva (ej. comparando tiempo percibido vs. tiempo real de uso de pantalla).
+- Comportamiento observable: Sorpresa o shock al mirar el reloj o el contador de tiempo de uso después de una sesión de scrolleo.
+- Alternativas actuales: Apps de bloqueo o de seguimiento de tiempo de pantalla (ej. Forest), aunque las reseñas muestran que no siempre logran evitar la recaída, especialmente cuando la distracción no es solo redes sociales sino también notificaciones de trabajo o navegador.
+- Acceso a usuarios: Alto, aunque habría que preguntar puntualmente por esta distorsión de tiempo (no solo "¿usás mucho el celu?").
+- Supuestos: Suponemos que esta distorsión de tiempo es un problema en sí mismo (y no solo un síntoma de A o B) — esto es lo más débil de los tres problemas en términos de evidencia.
+- Evidencia faltante: Es el problema con menos respaldo de los tres. Falta confirmar con entrevistas si realmente perciben distorsión de tiempo, o si en realidad lo que sienten es la culpa del Problema B disfrazada de otra cosa.
 
 ## Estacionamiento de soluciones
 
