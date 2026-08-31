@@ -273,11 +273,38 @@ Preferimos llevar los tres problemas separados hasta la instancia de evaluación
 
 ## 6. Comparación de evaluaciones
 
-- Principales coincidencias:
-- Principales diferencias:
-- Puntajes modificados y motivo:
-- Inferencias o errores detectados en la IA:
-- Incertidumbres que permanecen:
+**Principales coincidencias**
+
+- El **orden de prioridad es idéntico** en las 5 evaluaciones (la tuya y las 4 individuales): A > B > C. Nadie invierte el ranking.
+- La **Facilidad** es el criterio donde más se alinean: todos ubican a los tres problemas en un rango parecido (6-8), reflejando que el acceso a entrevistados no es el cuello de botella en ningún caso.
+- Todos coinciden en que **A es el problema más sólido** para avanzar, aunque por distintas razones (vos por evidencia, ellos por percepción/experiencia propia).
+
+**Principales diferencias**
+
+- La brecha más grande está en **Confianza**, sobre todo en el Problema C: vos le pusiste 2 (una sola fuente, un blog), mientras el promedio del equipo es 7,25 — una diferencia de más de 5 puntos. Algo similar pasa en B (vos: 4, equipo: 8).
+- En **Impacto**, tu evaluación es sistemáticamente más conservadora (6/5/4) que la del equipo (8,5/7,5/6,25) en los tres problemas.
+- Como consecuencia, tus puntajes de HIELO están mucho más separados entre sí (2,88 / 1,4 / 0,48), mientras que en las evaluaciones individuales B y C quedan bastante parejos entre ellos (ej. Integrante 4: 4,86 / 4,48 / 3,43). El equipo "aplana" la diferencia entre problemas; vos la marcás fuerte.
+
+**Puntajes modificados y motivo**
+
+- **A — Confianza**: de 6 a ~7 (el equipo tiene razón en que la evidencia, aunque de otras poblaciones, es consistente en dirección; subirla un punto es razonable, no a 8,5).
+- **B — Confianza**: mantener cerca de 4-5, no subir a 8. La razón para la Confianza baja (mayoría de fuentes son blogs, no estudios) sigue vigente y ningún integrante aportó una fuente nueva que la contradiga.
+- **C — Impacto y Confianza**: acá es donde más me resistiría a subir mucho. El salto de Confianza 2→7 del equipo no tiene un respaldo evidenciado explícito (nadie citó una fuente nueva); probablemente refleje que "a todos les pasa" desde la experiencia personal, que es válido como señal pero no es lo mismo que evidencia externa.
+
+**Inferencias o errores detectados en la evaluación (documento IA)**
+
+- Asumir que estudios hechos en India o con poblaciones generales (Frontiers, ResearchGate) **generalizan a estudiantes de Marketing de nivel socioeconómico medio-alto en Argentina** — señalado en el propio documento, pero vale la pena resaltarlo como el supuesto más frágil de toda la evaluación.
+- Tratar el **Problema C como independiente del B**, cuando la propia justificación admite que podría ser simplemente la forma en que se manifiesta B (la distorsión del tiempo como síntoma de la culpa/fatiga, no como problema aparte). Esto infla artificialmente la cantidad de "problemas" candidatos.
+- Apoyarse en **blogs y ensayos personales** como si tuvieran el mismo peso evidencial que estudios formales al momento de estimar Impacto, aunque el documento reconoce que "los blogs suelen dramatizar para enganchar lectores" — reconocido, pero igual usado como base principal para B y, sobre todo, para C.
+- Asumir Facilidad alta en A (8) por "acceso directo a compañeros", sin contemplar del todo el **sesgo de deseabilidad social** (que la gente minimice su propia procrastinación en una entrevista formal) — el propio texto lo menciona como riesgo pero no lo baja del puntaje.
+
+**Incertidumbres que permanecen**
+
+- Si la procrastinación (A) tiene consecuencias académicas medibles (notas, entregas) o si la gente "procrastina pero igual entrega bien" — solo las entrevistas lo van a resolver.
+- Si la culpa/fatiga (B) deriva en algo más allá del malestar momentáneo.
+- Si C es realmente un problema separado de B o es la misma experiencia contada de otra forma — esta es la incertidumbre más importante para decidir si vale la pena mantener C como candidato independiente.
+- Si la Confianza alta que reportó el equipo en las evaluaciones individuales refleja evidencia real que no quedó documentada, o si es simplemente certeza subjetiva por vivencia personal — esto conviene aclararlo en la conversación de equipo antes de fijar los puntajes finales.
+- Aplicabilidad al contexto local (Argentina, Marketing, nivel socioeconómico medio-alto) sigue sin ningún respaldo directo en ninguna de las fuentes citadas.
 
 ## 7. Crítica del problema finalista
 
