@@ -96,6 +96,51 @@
 - Supuestos: Suponemos que esta distorsión de tiempo es un problema en sí mismo (y no solo un síntoma de A o B) — esto es lo más débil de los tres problemas en términos de evidencia.
 - Evidencia faltante: Es el problema con menos respaldo de los tres. Falta confirmar con entrevistas si realmente perciben distorsión de tiempo, o si en realidad lo que sienten es la culpa del Problema B disfrazada de otra cosa.
 
+## 4. Limpieza y agrupación
+
+### 1. Problemas duplicados o relacionados
+
+- Problema A (procrastinación académica) es el que tiene el contexto más distintivo de los tres: ocurre específicamente bajo presión de una entrega o estudio. No parece duplicado de B o C.
+- Problema B (culpa/fatiga tras scrollear) y Problema C (distorsión del tiempo) comparten la misma situación de origen: "abrir el teléfono por un momento" y que se extienda más de lo previsto. La diferencia que ustedes marcan es el contexto (B: buscar descanso/distracción en general; C: un chequeo rápido específico), pero en la evidencia que juntamos, ambos se disparan de la misma acción y en los mismos relatos (los blogs que describen "diez, veinte minutos vencidos" son citados tanto para B como para C).
+
+### 2. Diferenciación: problema, síntoma, causa, consecuencia, solución disfrazada
+
+- Problema A: es un **problema en sí mismo** — tiene consecuencia clara (menor tiempo de estudio) y evidencia de estudios formales.
+- Problema C (distorsión del tiempo): con la evidencia que tenemos, se lee más como un **síntoma o mecanismo** que como un problema aislado — es la explicación de *por qué* pasa más tiempo del previsto scrolleando, no una consecuencia negativa en sí misma.
+- Problema B (culpa/fatiga): es la **consecuencia emocional** de ese mecanismo — acá sí hay algo que el usuario "sufre" y que podría investigarse como problema real.
+
+Entonces, con la evidencia actual, C podría no ser un problema separado sino la explicación de cómo ocurre B. Esto no significa que estén equivocados en separarlos — pero antes de decidirlo, vale la pena preguntarse: si entrevistan a alguien y les cuenta la distorsión del tiempo, ¿esa persona igual va a mencionar la culpa después? Si siempre aparecen juntas, es una señal de que es un solo problema con dos caras.
+
+### 3. Agrupaciones sugeridas y evidencia que las respalda
+
+- **Grupo 1 — Procrastinación académica (Problema A):** respaldado por dos estudios formales con muestras de cientos de estudiantes (Frontiers, ResearchGate).
+- **Grupo 2 — Scrolleo no planeado con consecuencia emocional (Problemas B + C fusionados):** respaldado principalmente por relatos personales (blogs) y un estudio sobre fatiga/pensamiento intrusivo. La evidencia de B es más fuerte que la de C individualmente.
+
+### 4. Contradicciones entre fuentes
+
+- El estudio de la Universidad de Kansas (usado para el Problema A) encontró que el uso de video corto para procrastinar afecta el sueño y el bienestar, pero **no** las notas — esto tensiona la idea de que la procrastinación académica tiene una consecuencia académica medible. Puede ser que la consecuencia real esté más del lado del bienestar (parecido a B) que del rendimiento.
+
+### 5. Interpretaciones no comprobadas
+
+- Que la distorsión del tiempo (C) sea un problema aislado y no un síntoma de B — no hay evidencia que los diferencie con claridad, es una hipótesis del equipo.
+- Que la culpa/fatiga (B) tenga una consecuencia concreta más allá del malestar momentáneo — no confirmado.
+- Que estos patrones se repliquen igual en un perfil de nivel socioeconómico medio-alto y en Marketing específicamente — ningún estudio fue hecho en esa población.
+
+### 6. Información faltante
+
+- Si B y C ocurren siempre juntas o pueden pasar por separado (por ejemplo, alguien que scrollea sabiendo perfectamente cuánto tiempo pasó, pero igual siente culpa).
+- Si el Problema A tiene alguna consecuencia además de "menos tiempo de estudio" — ¿afecta directamente la nota, o el nivel de estrés, o ambos?
+- Datos de nuestro propio contexto (Argentina, Marketing, nivel socioeconómico medio-alto) — toda la evidencia formal es de otros países.
+
+### Decisiones tomadas por el equipo
+
+- Decidimos **mantener los tres problemas separados** (Procrastinación académica, Malestar tras scrollear sin planearlo, y Percepción distorsionada del tiempo) en esta etapa del proyecto, a pesar de que la IA señaló que B y C podrían ser el mismo problema visto desde ángulos distintos.
+
+Nuestra justificación es la siguiente: con la evidencia que tenemos hasta ahora, no podemos confirmar ni descartar si la distorsión del tiempo (C) es un síntoma de la culpa/fatiga (B) o si son experiencias que pueden ocurrir de forma independiente. Fusionarlos ahora implicaría decidir en base a una intuición del equipo, no en base a evidencia real.
+
+Preferimos llevar los tres problemas separados hasta la instancia de evaluación (ICE) y hasta las entrevistas reales. Ahí vamos a poder preguntar puntualmente si la distorsión del tiempo aparece siempre acompañada de culpa, o si son cosas que las personas viven por separado. Si la evidencia real muestra que siempre van juntas, los fusionaremos en ese momento; si no, tendremos justificación sólida para mantenerlos como problemas distintos.
+
+
 ## Estacionamiento de soluciones
 
 -
