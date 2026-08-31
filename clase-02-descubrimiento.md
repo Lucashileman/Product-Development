@@ -422,7 +422,11 @@ Sin embargo, todavía necesitamos comprobar varias cosas: si este patrón se rep
 
 ### Aprendizajes del role-play
 
-- 
+- Al actuar la Persona 1 ("El que posterga por FOMO"), nos costó separar la pregunta "¿procrastinás?" de la pregunta "¿te sentís mal por eso?" — varias veces la conversación se fue sola hacia la culpa (Problema B) aunque el guion apuntaba a medir consecuencias académicas (Problema A). Esto confirma la sospecha que ya habíamos anotado en el Paso 4: los tres problemas están más entrelazados en la conversación real de lo que aparecen separados en las fichas.
+- La pregunta "¿qué pasó con la entrega al final?" fue la que mejor funcionó para sacar a la persona de la respuesta genérica ("sí, me pasa siempre") y llevarla a un ejemplo concreto — algo que necesitábamos, porque la falta de ejemplos concretos era justamente la "Evidencia faltante" marcada en la ficha del Problema A.
+- Con la Persona 2 ("El que separa lo académico de lo recreativo") nos dimos cuenta de que es más difícil de encontrar en la vida real de lo que el research sugiere: al intentar responder como ese perfil, terminamos igual describiendo momentos de distracción recreativa. Esto pone en duda si el hallazgo de ResearchGate (uso académico de WhatsApp → menor procrastinación) se sostiene como un perfil de persona diferenciado o si es más una cuestión de grado que de tipo.
+- Notamos que preguntar directamente "¿procrastinás con redes sociales?" invita a una respuesta con deseabilidad social (minimizar el comportamiento) — algo que ya habíamos anticipado como riesgo en la evaluación de Ease del Problema A, y el role-play lo confirmó: es más productivo preguntar por la última vez concreta que por el hábito en general.
+- No logramos, ni actuando los personajes, aislar con claridad la distorsión del tiempo (Problema C) de la culpa (Problema B) — cada vez que uno "confesaba" haber perdido más tiempo del previsto, aparecía enseguida algo de culpa asociada. Esto refuerza, con una señal más (aunque todavía no es evidencia real), la sospecha de que C podría ser síntoma de B.
 
 ### Guion de entrevista real
 
@@ -437,3 +441,16 @@ Sin embargo, todavía necesitamos comprobar varias cosas: si este patrón se rep
 ## Estacionamiento de soluciones
 
 -
+## Cierre del equipo
+
+El problema que decidimos investigar es:
+La procrastinación académica asociada al uso recreativo de redes sociales en estudiantes de Marketing de 2do año, nivel socioeconómico medio-alto: cuando se proponen estudiar o avanzar con una entrega, abren una red social "por un momento" y terminan usándola más tiempo del planeado, postergando la actividad académica.
+
+La evidencia más fuerte que encontramos es:
+Dos estudios académicos formales con muestras considerables (825 y 100 estudiantes universitarios) que muestran correlación entre el uso recreativo de redes sociales (Instagram, Facebook) y mayor procrastinación académica, mientras que el uso académico de WhatsApp se asocia a menor procrastinación.
+
+El supuesto más riesgoso es:
+Que estos hallazgos, obtenidos en poblaciones de otros países (China, Perú) y sin especificar carrera ni nivel socioeconómico, se repliquen igual en nuestro contexto (Argentina, Marketing, nivel socioeconómico medio-alto) — y que la consecuencia sea realmente académica (notas, entregas) y no de otro tipo (bienestar, sueño), como sugiere el hallazgo contrario de la Universidad de Kansas.
+
+La pregunta más importante para los usuarios reales es:
+La última vez que te pasó esto, ¿qué estabas por hacer, y qué pasó finalmente con esa entrega o ese estudio? — para reemplazar la respuesta genérica ("sí, me pasa siempre") por un ejemplo concreto que confirme o desmienta si hay una consecuencia real medible.
