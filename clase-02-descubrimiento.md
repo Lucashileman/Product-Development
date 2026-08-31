@@ -363,13 +363,35 @@ Sin embargo, todavía necesitamos comprobar varias cosas: si este patrón se rep
 
 ## 9. Personas sintéticas y entrevistas
 
-### Persona sintética 1
+### Persona sintética 1: "El que posterga por FOMO"
 
-[PEGAR FICHA]
+| Campo | Contenido |
+|---|---|
+| Contexto | Estudiante de Marketing, 2do año, que cursa varias materias con entregas simultáneas. *(Evidencia: perfil definido en el Paso 1 — territorio de investigación)* |
+| Objetivo o progreso buscado | Avanzar con el estudio o la entrega en el tiempo que se había propuesto. *(Evidencia: definido en la redacción del problema, Paso 11)* |
+| Comportamientos | Revisa el teléfono ante cualquier notificación mientras estudia; tiende a usar redes de forma recreativa (Instagram/tipo de contenido en formato corto) en vez de para fines académicos. *(Evidencia: estudio de Frontiers sobre FOMO y autocontrol; estudio de ResearchGate sobre mayor procrastinación asociada al uso recreativo de Instagram/Facebook)* |
+| Frustraciones | Siente que "se le va el tiempo" sin haberlo decidido conscientemente. *(Hipótesis: no hay evidencia directa de que esta persona específica sienta frustración; se infiere de la literatura sobre malestar post-scrolleo de otro problema del research, no de este mismo)* |
+| Restricciones | Tiene fecha de entrega fija, no puede simplemente correrla. *(Hipótesis: supuesto razonable del contexto académico, no viene de una fuente específica)* |
+| Alternativas actuales | Ninguna identificada con evidencia — es justamente uno de los datos faltantes marcados en la ficha del Problema A. *(Sin evidencia — dato pendiente)* |
+| Relación con el problema | Es el perfil que más se ajusta al hallazgo de "baja autocontrol + FOMO → mayor procrastinación". *(Evidencia: estudio de Frontiers)* |
+| Supuestos incorporados | Que este perfil predomina en nuestro grupo de Marketing con nivel socioeconómico medio-alto — no confirmado, los estudios fueron hechos en otras poblaciones. |
+| Preguntas para personas reales | ¿La última vez que te pasó esto, qué estabas por hacer? ¿Notaste en el momento que estabas postergando, o te diste cuenta después? ¿Qué pasó con la entrega al final? |
 
-### Persona sintética 2
+---
 
-[PEGAR FICHA]
+### Persona sintética 2: "El que separa lo académico de lo recreativo"
+
+| Campo | Contenido |
+|---|---|
+| Contexto | Estudiante de Marketing, 2do año, que usa mensajería (WhatsApp) principalmente para coordinar temas de la facultad. *(Evidencia: estudio de ResearchGate, que encontró que el uso académico de WhatsApp se asocia a *menor* procrastinación)* |
+| Objetivo o progreso buscado | Cumplir con sus tiempos de estudio sin que se le mezclen con el uso recreativo del teléfono. *(Hipótesis, en base al contraste que sugiere la evidencia entre uso académico vs. recreativo)* |
+| Comportamientos | Usa el teléfono durante el estudio, pero principalmente para chats grupales de la cursada, no para Instagram o contenido de entretenimiento. *(Evidencia: mismo estudio de ResearchGate)* |
+| Frustraciones | No identificada en la evidencia — es plausible que esta persona sienta menos frustración que la Persona 1, pero esto es una hipótesis, no un hallazgo. |
+| Restricciones | Igual que la Persona 1: tiempos de entrega fijos. *(Hipótesis del contexto general)* |
+| Alternativas actuales | Uso de WhatsApp con fines académicos como forma (posiblemente involuntaria) de mantenerse enfocado. *(Evidencia parcial: el estudio no dice que esto sea una "estrategia" consciente, solo mide la correlación)* |
+| Relación con el problema | Representa un caso "moderadamente afectado" o incluso protector frente al problema, útil para contrastar con la Persona 1. |
+| Supuestos incorporados | Que esta persona existe como perfil diferenciado en nuestro grupo, y que el patrón de "menos procrastinación con uso académico de WhatsApp" no es solo un artefacto estadístico del estudio original. |
+| Preguntas para personas reales | ¿Separás conscientemente el uso del teléfono para la facultad del uso para entretenimiento? ¿Sentís que eso te ayuda a evitar distraerte, o pasa igual? ¿Alguna vez un chat de la facultad terminó llevándote a otra app? |
 
 ### Aprendizajes del role-play
 
