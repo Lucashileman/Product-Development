@@ -44,7 +44,7 @@
 ## 5. Evidencia
 - A favor: 6 de las 8 respuestas medibles (75%) mostraron una diferencia de 5 minutos o más entre lo autorreportado y el tiempo real — superando así el criterio de éxito definido ("más de la mitad"). Además, en **las 8 respuestas medibles, sin excepción, el tiempo real fue mayor al autorreportado** — nadie sobreestimó su tiempo en redes.
 - En contra: 2 de las 8 respuestas (luis, Federico) tuvieron una diferencia menor a 5 minutos, aunque igual subestimaron el tiempo real. No hay ningún caso que contradiga la dirección de la hipótesis (sobreestimación), solo casos donde la magnitud fue menor.
-- Interpretación del equipo: [completar — con un 75% cumpliendo el umbral y el 100% mostrando subestimación en alguna medida, ¿consideran la hipótesis respaldada con solidez, o todavía quieren más muestra antes de avanzar?]
+- Interpretación del equipo: Consideramos que la hipótesis de problema queda respaldada para esta etapa. El 75% de las respuestas medibles superó el umbral que habíamos definido previamente y, además, todos los participantes subestimaron en alguna medida el tiempo real que habían pasado en redes. Aunque la muestra sigue siendo chica, creemos que la evidencia es suficiente para avanzar a la siguiente hipótesis sin necesidad de seguir investigando exactamente lo mismo por ahora.
 - Limitaciones: muestra todavía chica (8 respuestas medibles) y no representativa de toda la carrera; varios participantes usaron rangos en vez de minutos exactos, lo que agrega imprecisión, especialmente relevante en los dos casos límite; depende de autorreporte honesto (riesgo de deseabilidad social, señalado desde la Clase 2).
 
 ## 6. Aprendizajes
@@ -55,8 +55,8 @@
 ## 7. Estado de la evidencia y próxima iteración
 - Respaldada, no respaldada o inconclusa: **Respaldada**. El criterio definido era que más de la mitad de los participantes mostrara una diferencia de 5+ minutos entre lo reportado y lo real; se cumplió con un 75% (6 de 8), y ningún participante mostró el patrón contrario (sobreestimación).
 - Comparación con el criterio: 6 de 8 respuestas medibles superaron el umbral (Luqui +20, Andy +20, Rayo +27, Balta +15, Moncho +15, Benja +17); 2 quedaron por debajo pero en la misma dirección (luis +4,5, Federico +4).
-- Decisión de iteración: [completar con el equipo — con este resultado, las opciones típicas serían: (a) avanzar hacia la Hipótesis de Valor (¿mostrar el tiempo real ayudaría a volver antes a estudiar?), probablemente con un instrumento tipo Wizard of Oz o concierge, o (b) ampliar la muestra actual antes de avanzar, dado que 8 respuestas sigue siendo una base chica para tomar decisiones de producto]
-- Justificación: [completar con el razonamiento del equipo]
+- Decisión de iteración: Decidimos avanzar hacia la Hipótesis de Valor: comprobar si mostrarle al estudiante cuánto tiempo lleva realmente en una red social durante una sesión de estudio lo ayuda a volver antes a la tarea.
+- Justificación: El experimento cumplió el criterio de éxito que habíamos definido antes de obtener los resultados: 6 de 8 participantes mostraron una diferencia de al menos 5 minutos entre el tiempo que creían haber pasado en redes y el tiempo real. Además, los 8 participantes medibles subestimaron su uso. Por eso, creemos que seguir ampliando la muestra sobre esta misma pregunta nos daría menos aprendizaje que probar el siguiente supuesto importante. Todavía no sabemos si hacer visible ese tiempo realmente cambia el comportamiento del usuario, por lo que esa pasa a ser nuestra próxima incertidumbre.
 - Próxima incertidumbre por reducir: si mostrarle a alguien, en el momento, cuánto tiempo lleva en la red social realmente lo ayuda a volver antes a estudiar (Hipótesis de Valor) — esta pregunta todavía no fue tocada por este experimento, que solo confirmó que el problema de percepción existe.
 
 ## 8. Nueva posición en la curva de la verdad
