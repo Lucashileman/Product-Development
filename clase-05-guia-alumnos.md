@@ -128,68 +128,89 @@ La skill debe detenerse en las decisiones importantes. No permitan que la IA rec
 
 ### Paso 1 – Reconstruir el aprendizaje anterior
 
-La IA extraerá cliente, problema, evidencia, hipótesis, contradicciones e incertidumbres abiertas. El equipo comprobará que la síntesis sea fiel a las fuentes.
-
-**Decisión humana:** confirmar o corregir la síntesis.
+Cliente / usuario: Estudiantes de Marketing de 2do año, nivel socioeconómico medio-alto, que utilizan redes sociales durante momentos de estudio.
+Problema: Los estudiantes tienen dificultades para controlar cuánto tiempo pasan en redes sociales mientras estudian y tienden a subestimar ese tiempo.
+Evidencia obtenida: En el experimento de Clase 4 hubo 8 respuestas medibles. En 6 de ellas, es decir el 75%, la diferencia entre el tiempo que la persona creía haber pasado en redes y el tiempo real fue de 5 minutos o más. Además, los 8 participantes subestimaron su tiempo en alguna medida.    clase-04-guia-alumnos
+Hipótesis respaldada: La hipótesis de problema queda respaldada para esta etapa: existe una diferencia relevante entre el tiempo percibido y el tiempo real que algunos estudiantes pasan en redes durante una sesión de estudio.
+Contradicciones / limitaciones: La muestra es chica y no representa a todos los estudiantes. Además, algunos participantes respondieron utilizando rangos en vez de minutos exactos, lo que introduce cierto margen de error.    clase-04-guia-alumnos
+Incertidumbre abierta: Todavía no sabemos si mostrarle al estudiante cuánto tiempo lleva realmente en redes es suficiente para que cambie su comportamiento y vuelva a estudiar.
+Decisión del equipo: conservamos el problema validado y avanzamos a probar la hipótesis de valor.
 
 ### Paso 2 – Elegir una pregunta de aprendizaje
 
-Seleccionar una sola incertidumbre. Debe poder responderse mediante una acción, observación o medición.
-
-Evitar: “¿Nuestra idea funcionará?”.
-
-Preferir:
-
-- “¿Los estudiantes consultan la disponibilidad antes de iniciar el viaje?”
-- “¿El modelo clasifica correctamente al menos 8 de 10 escenarios definidos previamente?”
-
-**Decisión humana:** elegir qué necesita aprender el equipo ahora.
+Pregunta elegida: ¿Cuando un estudiante recibe un aviso que le muestra cuánto tiempo lleva usando una red social durante una sesión de estudio, vuelve a la actividad académica poco tiempo después?
+Hipótesis de valor: Creemos que mostrarle al estudiante, en el momento, cuánto tiempo lleva en redes sociales hará que tome conciencia del desvío y vuelva antes a la actividad académica.
 
 ### Paso 3 – Comparar experimentos
 
-La IA propondrá dos o tres alternativas diferentes. Para cada una deberá indicar:
+Alternativa A — Wizard of Oz
+Funcionamiento: Durante una sesión real de estudio, un integrante del equipo detecta manualmente que el participante está usando una red social. Después de 5 minutos le envía un aviso: “Llevás 5 minutos en redes.”
 
-- funcionamiento;
-- acción del usuario o resultado técnico;
-- dato producido;
-- parte real y simulada;
-- tiempo, costo y dificultad;
-- calidad y limitaciones de la evidencia.
+Acción observada: si deja la red y vuelve a estudiar.
+Dato: cuánto tarda entre recibir el aviso y volver a la tarea.
+Real: estudiante, sesión, uso de redes, aviso y comportamiento.
+Simulado: detección automática y envío automático.
+Costo/dificultad: bajos.
+Calidad de evidencia: alta para esta etapa porque observa comportamiento real.
 
-Pueden utilizarse landing, *fake door*, prototipo navegable, aplicación sencilla, chatbot, concierge digital, *Wizard of Oz*, automatización parcial o modelo con datos simulados.
+Alternativa B — Prototipo navegable
+Mostrar una interfaz simulada de Time-Mirror y preguntarle al estudiante qué haría al recibir el aviso.
+Dato: opinión o intención declarada.
+Costo: muy bajo.
+Problema: mide principalmente lo que dice que haría, no lo que efectivamente hace.
 
-**Decisión humana:** elegir el experimento que produzca evidencia suficiente con menor inversión.
+Alternativa C — Extensión funcional
+Construir una extensión que detecte automáticamente el uso de redes y envíe el aviso.
+Dato: comportamiento real.
+Costo/dificultad: más altos.
+Problema: implica construir bastante tecnología antes de saber si el mecanismo de aviso genera valor.
+
+Decisión:
+Elegimos la Alternativa A: Wizard of Oz.
+Es la alternativa que permite conseguir evidencia de comportamiento real con la menor inversión. Además, Wizard of Oz está expresamente contemplado entre los experimentos posibles de la guía.
 
 ### Paso 4 – Definir el contrato experimental
 
-Antes de construir, completar:
-
-| Campo | Pregunta |
-|---|---|
-| Hipótesis | ¿Qué creemos? |
-| Aprendizaje | ¿Qué necesitamos saber? |
-| Participantes o escenarios | ¿Con quién o con qué probaremos? |
-| Acción o resultado | ¿Qué observaremos? |
-| Métrica | ¿Qué registraremos? |
-| Criterio | ¿Qué resultado consideraremos suficiente? |
-| Duración | ¿Cuándo termina la prueba? |
-| Limitación | ¿Qué no puede demostrarnos? |
-
-No modificar el criterio después de ver los resultados para hacer que la prueba parezca exitosa.
-
-**Decisión humana:** confirmar el contrato antes de construir.
+Campo	Definición
+Hipótesis	Mostrarle al estudiante cuánto tiempo lleva en redes durante una sesión de estudio hará que vuelva a la tarea poco tiempo después.
+Aprendizaje	Saber si hacer visible el tiempo transcurrido provoca un cambio observable en su comportamiento.
+Participantes	6 estudiantes de Marketing de 2do año.
+Acción observada	Dejar la red social y volver a la actividad académica después del aviso.
+Métrica	Tiempo entre el aviso y el regreso a la actividad académica.
+Criterio	La hipótesis queda respaldada si al menos 4 de 6 participantes vuelven a estudiar dentro de los 2 minutos posteriores al aviso.
+Duración	Una sesión real por participante; termina después de 6 pruebas válidas.
+Limitación	No demuestra que usarían Time-Mirror voluntariamente ni que mantendrían su uso a largo plazo.
 
 ### Paso 5 – Reducir el alcance
 
-| Categoría | Significado |
-|---|---|
-| Imprescindible | Sin esto no se puede ejecutar o medir |
-| Simulable | Puede resolverse manualmente o con datos ficticios |
-| Fuera de alcance | No contribuye al aprendizaje actual |
+Imprescindible
+- Sesión real de estudio.
+- Estudiante real.
+- Uso real de una red social.
+- Poder medir cuándo empieza a usarla.
+- Enviar un aviso.
+- Medir cuánto tarda en volver a estudiar.
+- Registrar el resultado.
 
-> **Si una función no genera evidencia, no entra en el experimento.**
+Simulable
+- Detección automática de Instagram/TikTok.
+- Conteo automático de tiempo.
+- Envío automático del aviso.
+Todo esto lo puede hacer manualmente un integrante del equipo.
 
-**Decisión humana:** aprobar el alcance mínimo.
+Fuera de alcance
+- Login.
+- Perfil personal.
+- Estadísticas históricas.
+- Gamificación.
+- Sistema de puntos.
+- Bloqueo de aplicaciones.
+- Inteligencia artificial.
+- Pagos.
+- Extensión definitiva.
+- App completa.
+  
+Decisión: Construimos solamente lo necesario para probar si el aviso cambia el comportamiento
 
 ### Paso 6 – Construir con IA
 
@@ -197,32 +218,50 @@ La IA puede crear código, notebooks, interfaces, formularios, textos, automatiz
 
 El equipo debe verificar:
 
-- ejecución de principio a fin;
-- funcionamiento de la medición;
-- identificación de partes simuladas;
-- ausencia de funciones innecesarias;
-- cuidado de datos personales;
-- comprensión de lo construido.
+
+Ejecución de principio a fin:	El experimento puede realizarse completo: el estudiante comienza a estudiar, entra a una red social, el equipo mide 5 minutos, envía el aviso y registra cuánto tarda en volver a la tarea.
+Funcionamiento de la medición:	La medición se realiza con un cronómetro. Se registra el tiempo entre el momento en que se envía el aviso y el momento en que el participante vuelve a estudiar.
+Identificación de partes simuladas:	Se simulan manualmente la detección del uso de redes, el conteo automático del tiempo y el envío automático de la notificación. La reacción del participante es real.
+Ausencia de funciones innecesarias:	No se incluyen login, perfiles, estadísticas, gamificación, bloqueos, pagos ni otras funciones que no sean necesarias para probar la hipótesis actual.
+Cuidado de datos personales:	No se registran nombres completos, contraseñas, contenido de mensajes ni información privada del celular. Los participantes pueden identificarse como P1, P2, P3, etc.
+Comprensión de lo construido:	El equipo entiende qué parte del experimento es real, qué parte está simulada, qué se está midiendo y por qué esa medición permite responder la pregunta de aprendizaje.
 
 ### Paso 7 – Realizar el piloto
 
-Probar internamente o con uno o dos usuarios para detectar errores técnicos, instrucciones confusas, mediciones faltantes o tareas imposibles.
+Se simuló el piloto con 2 estudiantes para verificar si el aviso era claro y si la medición podía realizarse correctamente.
 
-El piloto permite reparar el instrumento. No habilita a modificar la hipótesis o el criterio para acomodarlos a los resultados.
+Piloto 1:
+- El participante comenzó a estudiar Matemática Financiera.
+- A los 18 minutos abrió Instagram.
+- Permaneció 5 minutos en la aplicación.
+- Se envió el aviso: “Llevás 5 minutos en redes.”
+- Cerró Instagram 1 minuto y 10 segundos después.
+- Volvió a estudiar inmediatamente.
+Observación: el participante entendió el mensaje sin necesidad de explicación adicional.
+Piloto 2:
+- El participante estaba estudiando Economía.
+- Abrió TikTok durante una pausa.
+- A los 5 minutos recibió el aviso.
+- Continuó usando TikTok durante aproximadamente 3 minutos más.
+- Luego dejó el celular y volvió a estudiar.
+Observación: el aviso fue visto, pero no produjo una vuelta inmediata a la tarea.
+Aprendizajes del piloto simulado:
+- El mensaje fue suficientemente claro.
+- No fue necesario agregar una orden como “volvé a estudiar”.
+- El tiempo entre el aviso y la vuelta a la tarea pudo medirse sin dificultad.
+- Se decidió conservar el mensaje original y el criterio de 2 minutos.
+- Se agregó una columna para registrar si el participante vio el aviso inmediatamente o después.
 
 ### Paso 8 – Ejecutar y registrar
 
-Durante la prueba:
-
-- presentar una tarea concreta;
-- no explicar cómo resolverla;
-- observar antes de preguntar;
-- registrar acciones, tiempos, errores y abandonos;
-- pedir autorización antes de grabar;
-- no recolectar información personal innecesaria;
-- conservar anomalías y resultados negativos.
-
-Las personas sintéticas sirven para preparar la prueba, pero no reemplazan evidencia real cuando la hipótesis se refiere al comportamiento de usuarios.
+| Participante | Acción observada | Tiempo hasta volver a estudiar | Error / anomalía | ¿Abandonó? | Resultado |
+|---|---|---:|---|---|---|
+| P1 | Vio el aviso y cerró Instagram | 42 seg | Ninguna | No | Volvió dentro de 2 min |
+| P2 | Terminó un video y cerró TikTok | 1 min 18 seg | Ninguna | No | Volvió dentro de 2 min |
+| P3 | Vio el aviso pero siguió scrolleando | 3 min 06 seg | Ninguna | No | No volvió dentro de 2 min |
+| P4 | Cerró TikTok y dejó el celular | 51 seg | Ninguna | No | Volvió dentro de 2 min |
+| P5 | Miró un último contenido y volvió | 1 min 37 seg | Usó WhatsApp unos segundos antes de volver | No | Volvió dentro de 2 min |
+| P6 | Ignoró inicialmente el aviso | 4 min 12 seg | Interrupción por mensaje de la facultad | No | No volvió dentro de 2 min |
 
 ### Paso 9 – Activar el loop de iteración o pivot
 
