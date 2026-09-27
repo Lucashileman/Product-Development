@@ -350,15 +350,25 @@ Nueva pregunta de aprendizaje: ¿Los estudiantes activan voluntariamente Time-Mi
 | Limitación | No demuestra todavía uso sostenido de largo plazo ni disposición a pagar. |
 
 Experimento anterior: Wizard of Oz con aviso “Llevás 5 minutos en redes”.
+
 Resultado: respaldada por esta prueba simulada.
+
 Evidencia producida: 4 de 6 participantes volvieron a estudiar dentro de los 2 minutos posteriores al aviso.
+
 Por qué no sirve seguir insistiendo de la misma manera: el experimento ya produjo una señal sobre la hipótesis de valor y repetirlo exactamente igual aportaría poco aprendizaje nuevo.
+
 Supuesto que quedó cuestionado: ninguno quedó directamente contradicho, aunque sigue abierta la duda de si el aviso es suficiente para todos los usuarios.
+
 Qué conservamos: problema, segmento, Time-Mirror y mecanismo de mostrar el tiempo.
+
 Qué modificamos: la incertidumbre prioritaria.
+
 Tipo de cambio: avanzar al siguiente experimento.
+
 Próximo experimento: activación manual voluntaria de Time-Mirror durante varias sesiones.
+
 Qué evidencia diferente esperamos obtener: si los estudiantes realmente deciden utilizar la herramienta sin que alguien se los recuerde.
+
 Nuevo contrato experimental: medir activaciones voluntarias durante 3 sesiones de estudio por participante.
 
 Decicion final del paso 9: A partir de los resultados simulados, decidimos no corregir, no iterar el mismo experimento y no pivotar el problema. Decidimos avanzar al siguiente experimento, conservando el aprendizaje acumulado y pasando de una hipótesis de valor a una hipótesis de comportamiento/adopción.
