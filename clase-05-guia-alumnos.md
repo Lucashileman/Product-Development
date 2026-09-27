@@ -270,17 +270,24 @@ El criterio de éxito definido antes del experimento era que al menos 4 de los 6
 Los resultados alcanzaron el criterio que habíamos fijado previamente. Esto no significa que todo Time-Mirror esté validada, sino solamente que la hipótesis específica que estábamos probando —que mostrar el tiempo transcurrido puede ayudar a que el estudiante vuelva a estudiar— recibió apoyo dentro de esta simulación.
 También observamos que 2 de los 6 participantes continuaron utilizando redes sociales durante más de 2 minutos después del aviso. Esto indica que mostrar el tiempo no necesariamente sería suficiente para todos los usuarios.
 
-¿El experimento produjo evidencia válida? Si, la prueba permitió observar exactamente el comportamiento que queríamos medir: qué hacía el participante después de recibir el aviso y cuánto tardaba en volver a estudiar.
-2. ¿Falló el instrumento o quedó cuestionada la hipótesis? No identificamos una falla general del instrumento. El mensaje fue claro, pudo medirse el tiempo posterior al aviso y fue posible diferenciar entre participantes que volvieron rápidamente a estudiar y aquellos que continuaron utilizando redes. La hipótesis tampoco quedó contradicha, porque se alcanzó el criterio de éxito establecido.
-3. ¿La métrica representaba realmente el comportamiento buscado? Sí. La métrica principal fue el tiempo transcurrido entre el aviso y el regreso a la actividad académica. Esta métrica representa directamente el comportamiento que queríamos observar, ya que nuestra hipótesis no era si al estudiante “le gustaba” el aviso, sino si después de verlo modificaba efectivamente su conducta.
+1. ¿El experimento produjo evidencia válida?
+Si, la prueba permitió observar exactamente el comportamiento que queríamos medir: qué hacía el participante después de recibir el aviso y cuánto tardaba en volver a estudiar.
+
+2. ¿Falló el instrumento o quedó cuestionada la hipótesis?
+No identificamos una falla general del instrumento. El mensaje fue claro, pudo medirse el tiempo posterior al aviso y fue posible diferenciar entre participantes que volvieron rápidamente a estudiar y aquellos que continuaron utilizando redes. La hipótesis tampoco quedó contradicha, porque se alcanzó el criterio de éxito establecido.
+
+3. ¿La métrica representaba realmente el comportamiento buscado?
+Sí. La métrica principal fue el tiempo transcurrido entre el aviso y el regreso a la actividad académica. Esta métrica representa directamente el comportamiento que queríamos observar, ya que nuestra hipótesis no era si al estudiante “le gustaba” el aviso, sino si después de verlo modificaba efectivamente su conducta.
 La métrica complementaria fue la cantidad de participantes que volvieron a estudiar dentro de los 2 minutos.
+
 4. ¿La muestra, el canal y el contexto fueron adecuados?
-Para una prueba inicial, la prueba fue diseñada con 6 estudiantes de Marketing de 2do año, que coincide con el segmento trabajado durante el proyecto.
-El contexto también fue coherente con el problema: sesiones de estudio en las que el participante comenzaba a utilizar una red social recreativamente.
+Para una prueba inicial, la prueba fue diseñada con 6 estudiantes de Marketing de 2do año, que coincide con el segmento trabajado durante el proyecto. El contexto también fue coherente con el problema: sesiones de estudio en las que el participante comenzaba a utilizar una red social recreativamente.
 Como limitación, 6 participantes siguen siendo una muestra pequeña y no permiten generalizar el resultado a todos los estudiantes.
+
 5. ¿Repetir exactamente la misma prueba produciría información nueva?
 En principio, no. Si siguiéramos haciendo exactamente el mismo experimento con las mismas condiciones, probablemente empezaríamos a repetir información sobre algo que ya recibió una primera señal favorable.
 Una muestra real mayor podría aumentar la confianza, pero la incertidumbre más importante después de esta prueba pasa a ser otra: si los estudiantes utilizarían voluntariamente la herramienta.
+
 6. ¿Existe otro experimento más barato o directo para el mismo problema?
 Sí. La siguiente incertidumbre puede probarse sin construir una aplicación completa. Podemos utilizar una versión mínima de Time-Mirror en la que el estudiante tenga que decidir voluntariamente si quiere activar una “sesión de estudio”.
 Esto permitiría evaluar adopción sin invertir todavía en el desarrollo técnico completo.
@@ -304,6 +311,57 @@ Ya no necesitamos preguntar primero si el aviso puede provocar una vuelta rápid
 Ahora necesitamos investigar si los estudiantes elegirían utilizar la herramienta voluntariamente.
 
 Nuestra decicion es: Avanzar al siguiente experimento.
+
+1. ¿Podemos intervenir sobre alguna causa o consecuencia concreta?
+Sí. Podemos intervenir sobre la consecuencia de perder la noción del tiempo mostrando al estudiante cuánto tiempo lleva utilizando una red social.
+
+2. ¿Tenemos acceso a los usuarios, actores, datos y permisos necesarios?
+Sí. Tenemos acceso a estudiantes del segmento elegido y podemos realizar experimentos simples con ellos sin necesidad de utilizar información personal sensible.
+
+3. ¿Existe una intervención digital compatible con las restricciones del curso?
+Sí. Time-Mirror puede plantearse inicialmente como una herramienta digital simple de aviso o seguimiento de tiempo.
+
+4. ¿Podemos probarla con el tiempo, capacidades y recursos disponibles?
+Sí. Podemos seguir validando distintas hipótesis mediante experimentos simples antes de construir una aplicación completa.
+
+Conclusión de resolubilidad: El problema continúa siendo resoluble por el equipo dentro del alcance actual, por lo que no necesitamos cambiar de problema ni de segmento.
+
+Decidimos no repetir exactamente el mismo experimento porque la prueba ya alcanzó la cantidad de participantes acordada y produjo una señal suficiente para pasar a otra incertidumbre.
+Repetirlo de la misma manera tendría un aprendizaje marginal menor que probar una nueva pregunta.
+Además, existe una prueba más directa para la siguiente incertidumbre: observar si los estudiantes deciden activar voluntariamente la herramienta. Por eso dejamos de insistir con el experimento actual y avanzamos.
+
+Proximo experimento elegido:
+
+Lo que busca: ¿Los estudiantes activarían voluntariamente Time-Mirror antes de comenzar una sesión de estudio?
+
+Nueva hipótesis: Creemos que los estudiantes que reconocen el problema activarán voluntariamente Time-Mirror antes de comenzar una sesión de estudio.
+
+Nueva pregunta de aprendizaje: ¿Los estudiantes activan voluntariamente Time-Mirror en situaciones reales de estudio sin que el equipo se los recuerde?
+
+| Campo | Definición |
+|---|---|
+| Hipótesis | Los estudiantes activarán voluntariamente Time-Mirror antes de estudiar. |
+| Aprendizaje | Saber si existe disposición real a iniciar la herramienta sin recordatorios externos. |
+| Participantes | 6 estudiantes de Marketing de 2do año. |
+| Acción observada | Activar voluntariamente la sesión de estudio. |
+| Métrica | Cantidad de sesiones en las que cada participante activa Time-Mirror por cuenta propia. |
+| Criterio | Al menos 4 de 6 participantes deben activarlo voluntariamente en 2 o más sesiones durante la prueba. |
+| Duración | 3 sesiones de estudio por participante. |
+| Limitación | No demuestra todavía uso sostenido de largo plazo ni disposición a pagar. |
+
+Experimento anterior: Wizard of Oz con aviso “Llevás 5 minutos en redes”.
+Resultado: respaldada por esta prueba simulada.
+Evidencia producida: 4 de 6 participantes volvieron a estudiar dentro de los 2 minutos posteriores al aviso.
+Por qué no sirve seguir insistiendo de la misma manera: el experimento ya produjo una señal sobre la hipótesis de valor y repetirlo exactamente igual aportaría poco aprendizaje nuevo.
+Supuesto que quedó cuestionado: ninguno quedó directamente contradicho, aunque sigue abierta la duda de si el aviso es suficiente para todos los usuarios.
+Qué conservamos: problema, segmento, Time-Mirror y mecanismo de mostrar el tiempo.
+Qué modificamos: la incertidumbre prioritaria.
+Tipo de cambio: avanzar al siguiente experimento.
+Próximo experimento: activación manual voluntaria de Time-Mirror durante varias sesiones.
+Qué evidencia diferente esperamos obtener: si los estudiantes realmente deciden utilizar la herramienta sin que alguien se los recuerde.
+Nuevo contrato experimental: medir activaciones voluntarias durante 3 sesiones de estudio por participante.
+
+Decicion final del paso 9: A partir de los resultados simulados, decidimos no corregir, no iterar el mismo experimento y no pivotar el problema. Decidimos avanzar al siguiente experimento, conservando el aprendizaje acumulado y pasando de una hipótesis de valor a una hipótesis de comportamiento/adopción.
 
 ### Paso 10 – Limitar el loop
 
