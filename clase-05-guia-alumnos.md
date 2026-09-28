@@ -375,46 +375,108 @@ Decicion final del paso 9: A partir de los resultados simulados, decidimos no co
 
 ### Paso 10 – Limitar el loop
 
-El loop no significa experimentar indefinidamente durante la clase.
+Decisión sobre la cantidad de iteraciones:
 
-- Ejecuten una primera prueba completa.
-- Si todavía hay tiempo y la siguiente prueba es pequeña, realicen una segunda vuelta.
-- Si requiere nuevos participantes, datos o preparación, déjenla diseñada y lista para ejecutar.
-- No agreguen funcionalidades para intentar salvar una solución que no produjo evidencia.
-- No cambien simultáneamente hipótesis, segmento, canal, métrica e instrumento: después no podrán saber qué generó el nuevo resultado.
+Decidimos no seguir repitiendo indefinidamente el mismo experimento. El experimento anterior ya produjo una señal suficiente para la hipótesis que estábamos evaluando: en la prueba, 4 de 6 participantes volvieron a estudiar dentro de los 2 minutos posteriores al aviso, alcanzando el criterio de éxito definido.
+Por eso, repetir exactamente la misma prueba no sería la mejor forma de seguir aprendiendo. La siguiente incertidumbre relevante pasa a ser otra: si los estudiantes activarían voluntariamente Time-Mirror antes de comenzar a estudiar.
+Nuestra decisión es realizar una nueva iteración enfocada en esa hipótesis de comportamiento, sin agregar funcionalidades innecesarias al producto.
 
-La Clase 5 termina cuando el equipo puede explicar:
+Qué aprendimos del experimento:
 
-1. qué aprendió del experimento;
-2. por qué corresponde continuar o dejar de insistir;
-3. qué supuesto conserva;
-4. qué supuesto modifica;
-5. cuál es la siguiente prueba más barata.
+A partir de la prueba aprendimos que hacer visible el tiempo transcurrido puede generar una reacción rápida en una parte importante de los usuarios. En 4 de los 6 casos simulados, el estudiante volvió a estudiar dentro del límite de 2 minutos definido previamente.
+También aprendimos que el aviso no necesariamente alcanza para todos los usuarios, ya que 2 participantes continuaron utilizando redes durante varios minutos después de recibirlo.
+Por lo tanto, el aprendizaje principal es que el mecanismo de mostrar el tiempo puede tener valor, pero no garantiza por sí solo que todos los estudiantes corten el scrolleo.
 
----
+Por qué corresponde continuar y no seguir insistiendo con la misma prueba:
 
-## Ejemplo: estacionamiento universitario
+Consideramos que corresponde continuar con el proyecto porque la hipótesis evaluada alcanzó el criterio de éxito definido.
+Sin embargo, no corresponde seguir repitiendo exactamente la misma prueba, porque ya obtuvimos una primera respuesta sobre esa incertidumbre.
+Repetir el experimento podría aumentar la confianza con una muestra mayor, pero no reduciría tanto la siguiente incertidumbre importante como una prueba diferente.
+Por eso, dejamos de insistir sobre la pregunta: “¿Mostrar el tiempo puede ayudar a que el estudiante vuelva a estudiar?”
+y avanzamos hacia: “¿El estudiante elegiría utilizar voluntariamente Time-Mirror antes de estudiar?”
 
-Una incertidumbre posible es si la información anticipada modifica la decisión antes de llegar.
+Supuesto que conservamos:
 
-La IA podría proponer:
+Conservamos los siguientes supuestos:
+- Existe una distorsión entre el tiempo percibido y el tiempo real en redes durante el estudio.
+- Hacer visible el tiempo transcurrido puede ayudar a modificar el comportamiento.
+- El segmento de estudiantes de Marketing de 2do año sigue siendo adecuado para continuar investigando.
+- Time-Mirror sigue siendo una posible forma de intervenir sobre el problema.
+Estos elementos no se modifican en la siguiente iteración.
 
-1. Landing con horarios y solicitud de alerta.
-2. Aplicación sencilla con disponibilidad simulada.
-3. Chatbot que recomienda un horario o acceso.
+Supuesto que modificamos o dejamos de priorizar:
 
-Si el equipo elige la aplicación, podría construir solamente:
+No modificamos el problema principal ni descartamos el mecanismo de aviso. Lo que cambia es la incertidumbre prioritaria.
+Hasta ahora nos concentramos en comprobar si el aviso podía modificar el comportamiento. A partir de la siguiente iteración, queremos comprobar si los usuarios tienen suficiente interés y motivación como para activar la herramienta voluntariamente.
+La nueva hipótesis pasa a ser: Creemos que los estudiantes activarán voluntariamente Time-Mirror antes de comenzar una sesión de estudio, sin necesidad de que el equipo se los recuerde.
 
-- selección del horario de llegada;
-- disponibilidad simulada;
-- una recomendación;
-- registro de consulta o acción.
+Qué no vamos a cambiar al mismo tiempo: 
 
-No necesita login, perfil, pagos, reservas reales, sensores ni predicciones avanzadas si no son indispensables para la hipótesis.
+Para poder interpretar correctamente el siguiente experimento, no vamos a modificar simultáneamente todos los elementos del proyecto.
+Mantendremos:
+- el mismo segmento de usuarios;
+- el mismo problema;
+- la misma idea general de Time-Mirror;
+- el mismo contexto de sesiones de estudio.
+Solamente cambiaremos la hipótesis que queremos probar y el mecanismo experimental utilizado para medirla.
 
-Otra hipótesis podría probarse con un modelo sencillo en Google Colab, diez escenarios definidos previamente y un criterio de ocho resultados coherentes sobre diez. Ese experimento produce evidencia técnica, no evidencia de adopción.
+Qué no vamos a construir todavía:
 
----
+No vamos a desarrollar todavía:
+- una aplicación completa;
+- un sistema de login;
+- perfiles personalizados;
+- estadísticas históricas;
+- gamificación;
+- bloqueos automáticos;
+- inteligencia artificial;
+- sistema de pagos;
+- recomendaciones avanzadas;
+- integración completa con Instagram o TikTok.
+Estas funciones aumentarían la inversión sin aportar evidencia directa sobre la incertidumbre que queremos resolver ahora.
+
+Siguente prueba mas barata:
+
+- Funcionamiento: Cada participante realizará 3 sesiones de estudio. Antes de cada sesión tendrá disponible la posibilidad de activar Time-Mirror. No se le enviará ningún recordatorio. Registraremos si lo activa o no.
+- Métrica: Cantidad de sesiones en las que el estudiante activa voluntariamente Time-Mirror.
+- Participantes: 6 estudiantes de Marketing de 2do año.
+- Criterio de éxito: Consideraremos respaldada la hipótesis si al menos 4 de los 6 participantes activan voluntariamente Time-Mirror en 2 o más de sus 3 sesiones de estudio.
+- Duración: 3 sesiones de estudio por participante.
+- Qué aprenderíamos: Esta prueba permitiría diferenciar entre dos cosas:
+1. que la herramienta pueda generar valor cuando aparece el aviso;
+2. que el usuario realmente quiera acordarse de usarla y activarla por su cuenta.
+
+Qué haríamos según el resultado de la próxima prueba:
+
+- Si la mayoría activa Time-Mirror voluntariamente: Consideraríamos respaldada la hipótesis de comportamiento inicial. La siguiente incertidumbre podría ser la repetición de uso durante un período más largo. Por ejemplo: ¿Los estudiantes siguen utilizando Time-Mirror después de una semana?
+- Si pocos estudiantes lo activan: La hipótesis de comportamiento no quedaría respaldada. Eso no significaría que el problema no existe ni que el aviso no genera valor. Significaría que depender de una activación manual podría ser una barrera. En ese caso, podríamos probar otro mecanismo, por ejemplo una activación automática o un recordatorio contextual. Eso implicaría cambiar el mecanismo de inicio, no volver a investigar desde cero el problema.
+- Si los resultados son inconclusos: Si hubo problemas de instrucciones, registro o contexto, corregiríamos únicamente el instrumento y repetiríamos la prueba necesaria. No cambiaríamos la hipótesis simplemente por un error técnico.
+
+Criterios para detener la siguiente iteración:
+
+La próxima prueba terminará cuando:
+- se hayan completado las 3 sesiones de los 6 participantes;
+- exista información suficiente para comparar el resultado con el criterio de éxito;
+- los resultados empiecen a repetirse sin aportar información nueva;
+- aparezca un problema de medición que obligue a detener y corregir el instrumento;
+- o una prueba más simple pueda responder mejor la misma pregunta.
+No continuaremos agregando participantes o funciones sin una razón de aprendizaje concreta.
+
+Cierre del loop:
+
+1. ¿Qué aprendimos? Que hacer visible el tiempo transcurrido puede ayudar a que algunos estudiantes vuelvan a estudiar rápidamente, aunque el efecto no aparece en todos los casos.
+
+2. ¿Por qué corresponde continuar o dejar de insistir? Corresponde continuar con el proyecto porque la hipótesis alcanzó el criterio definido en la simulación. No corresponde seguir insistiendo con exactamente el mismo experimento porque ya produjo aprendizaje suficiente sobre esa incertidumbre.
+
+3. ¿Qué supuesto conservamos? Conservamos que el problema existe y que mostrar el tiempo puede ser un mecanismo útil para intervenir.
+
+4. ¿Qué supuesto modificamos? No modificamos el problema, pero cambiamos la incertidumbre prioritaria. Ahora queremos comprobar si el estudiante decide utilizar voluntariamente la herramienta.
+
+5. ¿Cuál es la siguiente prueba más barata? Una activación manual de Time-Mirror durante 3 sesiones reales por participante, sin recordatorios del equipo, para medir uso voluntario.
+
+Decision final del paso 10:
+
+En función de los resultados de la prueba, decidimos cerrar el experimento actual y avanzar a una nueva prueba enfocada en la adopción voluntaria. No construiremos todavía una versión completa de Time-Mirror. La siguiente etapa buscará comprobar si el usuario no solo responde al aviso, sino si también está dispuesto a iniciar la herramienta por decisión propia.
 
 ## Entregables
 
