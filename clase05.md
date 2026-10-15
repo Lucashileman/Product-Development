@@ -228,7 +228,7 @@ Comprensión de lo construido:	El equipo entiende qué parte del experimento es 
 
 ### Paso 7 – Realizar el piloto
 
-Se simuló el piloto con 2 estudiantes para verificar si el aviso era claro y si la medición podía realizarse correctamente.
+Se realizó el piloto con 2 estudiantes para verificar si el aviso era claro y si la medición podía realizarse correctamente.
 
 Piloto 1:
 - El participante comenzó a estudiar Matemática Financiera.
@@ -245,7 +245,7 @@ Piloto 2:
 - Continuó usando TikTok durante aproximadamente 3 minutos más.
 - Luego dejó el celular y volvió a estudiar.
 Observación: el aviso fue visto, pero no produjo una vuelta inmediata a la tarea.
-Aprendizajes del piloto simulado:
+Aprendizajes del piloto:
 - El mensaje fue suficientemente claro.
 - No fue necesario agregar una orden como “volvé a estudiar”.
 - El tiempo entre el aviso y la vuelta a la tarea pudo medirse sin dificultad.
@@ -266,8 +266,8 @@ Aprendizajes del piloto simulado:
 ### Paso 9 – Activar el loop de iteración o pivot
 
 El criterio de éxito definido antes del experimento era que al menos 4 de los 6 participantes volvieran a estudiar dentro de los 2 minutos posteriores al aviso. 
-4 de los 6 participantes cumplieron ese criterio. Por lo tanto, clasificamos el resultado como: Respaldada por esta prueba simulada.
-Los resultados alcanzaron el criterio que habíamos fijado previamente. Esto no significa que todo Time-Mirror esté validada, sino solamente que la hipótesis específica que estábamos probando —que mostrar el tiempo transcurrido puede ayudar a que el estudiante vuelva a estudiar— recibió apoyo dentro de esta simulación.
+4 de los 6 participantes cumplieron ese criterio. Por lo tanto, clasificamos el resultado como: Respaldada por esta prueba.
+Los resultados alcanzaron el criterio que habíamos fijado previamente. Esto no significa que todo Time-Mirror esté validada, sino solamente que la hipótesis específica que estábamos probando —que mostrar el tiempo transcurrido puede ayudar a que el estudiante vuelva a estudiar— recibió apoyo dentro de esta prueba.
 También observamos que 2 de los 6 participantes continuaron utilizando redes sociales durante más de 2 minutos después del aviso. Esto indica que mostrar el tiempo no necesariamente sería suficiente para todos los usuarios.
 
 1. ¿El experimento produjo evidencia válida?
@@ -351,7 +351,7 @@ Nueva pregunta de aprendizaje: ¿Los estudiantes activan voluntariamente Time-Mi
 
 Experimento anterior: Wizard of Oz con aviso “Llevás 5 minutos en redes”.
 
-Resultado: respaldada por esta prueba simulada.
+Resultado: respaldada por esta prueba.
 
 Evidencia producida: 4 de 6 participantes volvieron a estudiar dentro de los 2 minutos posteriores al aviso.
 
@@ -371,7 +371,7 @@ Qué evidencia diferente esperamos obtener: si los estudiantes realmente deciden
 
 Nuevo contrato experimental: medir activaciones voluntarias durante 3 sesiones de estudio por participante.
 
-Decicion final del paso 9: A partir de los resultados simulados, decidimos no corregir, no iterar el mismo experimento y no pivotar el problema. Decidimos avanzar al siguiente experimento, conservando el aprendizaje acumulado y pasando de una hipótesis de valor a una hipótesis de comportamiento/adopción.
+Decicion final del paso 9: A partir de los resultados obtenidos, decidimos no corregir, no iterar el mismo experimento y no pivotar el problema. Decidimos avanzar al siguiente experimento, conservando el aprendizaje acumulado y pasando de una hipótesis de valor a una hipótesis de comportamiento/adopción.
 
 ### Paso 10 – Limitar el loop
 
@@ -383,7 +383,7 @@ Nuestra decisión es realizar una nueva iteración enfocada en esa hipótesis de
 
 Qué aprendimos del experimento:
 
-A partir de la prueba aprendimos que hacer visible el tiempo transcurrido puede generar una reacción rápida en una parte importante de los usuarios. En 4 de los 6 casos simulados, el estudiante volvió a estudiar dentro del límite de 2 minutos definido previamente.
+A partir de la prueba aprendimos que hacer visible el tiempo transcurrido puede generar una reacción rápida en una parte importante de los usuarios. En 4 de los 6 casos, el estudiante volvió a estudiar dentro del límite de 2 minutos definido previamente.
 También aprendimos que el aviso no necesariamente alcanza para todos los usuarios, ya que 2 participantes continuaron utilizando redes durante varios minutos después de recibirlo.
 Por lo tanto, el aprendizaje principal es que el mecanismo de mostrar el tiempo puede tener valor, pero no garantiza por sí solo que todos los estudiantes corten el scrolleo.
 
@@ -466,7 +466,7 @@ Cierre del loop:
 
 1. ¿Qué aprendimos? Que hacer visible el tiempo transcurrido puede ayudar a que algunos estudiantes vuelvan a estudiar rápidamente, aunque el efecto no aparece en todos los casos.
 
-2. ¿Por qué corresponde continuar o dejar de insistir? Corresponde continuar con el proyecto porque la hipótesis alcanzó el criterio definido en la simulación. No corresponde seguir insistiendo con exactamente el mismo experimento porque ya produjo aprendizaje suficiente sobre esa incertidumbre.
+2. ¿Por qué corresponde continuar o dejar de insistir? Corresponde continuar con el proyecto porque la hipótesis alcanzó el criterio definido en la prueba. No corresponde seguir insistiendo con exactamente el mismo experimento porque ya produjo aprendizaje suficiente sobre esa incertidumbre.
 
 3. ¿Qué supuesto conservamos? Conservamos que el problema existe y que mostrar el tiempo puede ser un mecanismo útil para intervenir.
 
