@@ -72,18 +72,17 @@ La IA debe devolver:
 ~~~markdown
 ## Lo que entiendo de su experimento
 
-- Querían comprobar:
-- El criterio de éxito era:
-- Construyeron o probaron:
-- El resultado registrado fue:
+- Querían comprobar: si mostrarle al estudiante cuánto tiempo lleva usando redes durante una sesión de estudio hace que vuelva más rápido a estudiar.
+- El criterio de éxito era: que al menos 4 de 6 participantes volvieran a estudiar dentro de los 2 minutos posteriores al aviso.
+- Construyeron o probaron: un experimento Wizard of Oz con el aviso “Llevás 5 minutos en redes”.
+- El resultado registrado fue: 4 de 6 participantes volvieron dentro de los 2 minutos.
 
 ## Chequeo rápido
 
-- Hipótesis definida antes de probar: Sí / No / No aparece en el archivo
-- Criterio definido antes de probar: Sí / No / No aparece en el archivo
-- Hay resultados u observaciones: Sí / No
-- Estado de la iteración: lista para analizar / falta completar la prueba /
-  falta ordenar el registro
+- Hipótesis definida antes de probar: SI
+- Criterio definido antes de probar: Sí 
+- Hay resultados u observaciones: Sí 
+- Estado de la iteración: lista para analizar
 ~~~
 
 Revisen esa síntesis. Corrijan sólo lo que esté mal.
@@ -101,12 +100,12 @@ Registren hasta tres hechos. Un hecho es algo que vieron, midieron o registraron
 
 | Qué pasó | Cómo lo sabemos |
 |---|---|
-| | |
-| | |
-| | |
+| 4 de los 6 participantes volvieron a estudiar dentro de los 2 minutos posteriores al aviso. | Los tiempos registrados fueron 42 segundos, 1 minuto 18 segundos, 51 segundos y 1 minuto 37 segundos. |
+| 2 de los 6 participantes tardaron más de 2 minutos en volver a estudiar. | Los tiempos registrados fueron 3 minutos 06 segundos y 4 minutos 12 segundos. |
+| Ningún participante abandonó completamente la sesión de estudio. | En los 6 casos registrados, los participantes finalmente volvieron a la actividad académica. |
 
-- Resultado frente al criterio: se alcanzó / no se alcanzó / todavía no sabemos.
-- Algo que salió distinto de lo esperado:
+- Resultado frente al criterio: se alcanzó
+- Algo que salió distinto de lo esperado: en 2 de los 6 casos el aviso no generó una vuelta rápida a la tarea y los participantes continuaron utilizando redes durante más de 2 minutos.
 ~~~
 
 ## Uso de IA
@@ -137,8 +136,8 @@ Y otra:
 ~~~markdown
 ## 3. Aprendizaje
 
-- Aprendimos que:
-- Todavía no sabemos si:
+- Aprendimos que: mostrarle al estudiante cuánto tiempo lleva usando redes durante una sesión de estudio puede ayudar a que vuelva más rápido a la actividad académica, aunque el aviso no genera el mismo efecto en todos los usuarios.
+- Todavía no sabemos si: los estudiantes activarían voluntariamente Time-Mirror antes de comenzar a estudiar y lo utilizarían de manera sostenida sin que alguien se los recuerde.
 ~~~
 
 No busquen una explicación perfecta. Si el resultado no permite concluir, el aprendizaje puede ser simplemente:
@@ -163,9 +162,9 @@ Elijan **una** opción:
 ~~~markdown
 ## 4. Decisión
 
-- Elegimos:
-- Porque:
-- Próximo paso:
+- Elegimos: Avanzar.
+- Porque: El experimento alcanzó el criterio de éxito definido previamente. 4 de los 6 participantes volvieron a estudiar dentro de los 2 minutos posteriores al aviso, por lo que obtuvimos evidencia suficiente para continuar con la siguiente etapa.
+- Próximo paso: Empezar a desarrollar una versión mínima de Time-Mirror que permita comprobar si los estudiantes deciden utilizar la herramienta voluntariamente durante sus sesiones de estudio.
 ~~~
 
 ### Si eligen “probar otro camino”
@@ -183,11 +182,11 @@ No diseñen diez pantallas ni una lista de funcionalidades. Definan el valor mí
 ~~~markdown
 ## 5. Punto de partida del MVP
 
-- Usuario:
-- Situación:
-- Valor que queremos entregar:
-- Una sola cosa que el MVP debe permitir hacer:
-- Qué vamos a medir cuando lo use una persona:
+- Usuario: Estudiantes de Marketing de 2do año que utilizan redes sociales durante sus momentos de estudio.
+- Situación: El estudiante comienza una sesión de estudio y puede distraerse utilizando redes sociales sin darse cuenta de cuánto tiempo está pasando en ellas.
+- Valor que queremos entregar: Ayudar al estudiante a tomar conciencia del tiempo que lleva usando redes mientras estudia para que pueda volver a la actividad académica antes de perder demasiado tiempo.
+- Una sola cosa que el MVP debe permitir hacer: Iniciar voluntariamente una sesión de estudio y recibir un aviso que le muestre cuánto tiempo lleva usando redes durante esa sesión.
+- Qué vamos a medir cuando lo use una persona: Si el estudiante activa voluntariamente Time-Mirror y, cuando recibe el aviso, cuánto tarda en volver a la actividad académica.
 ~~~
 
 ## Ejemplo: estacionamiento universitario
