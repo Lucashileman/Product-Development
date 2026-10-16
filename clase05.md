@@ -238,6 +238,7 @@ Piloto 1:
 - Cerró Instagram 1 minuto y 10 segundos después.
 - Volvió a estudiar inmediatamente.
 Observación: el participante entendió el mensaje sin necesidad de explicación adicional.
+
 Piloto 2:
 - El participante estaba estudiando Economía.
 - Abrió TikTok durante una pausa.
