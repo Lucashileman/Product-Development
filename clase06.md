@@ -209,11 +209,11 @@ En la próxima clase vamos a diseñar y construir esta versión mínima.
 
 Antes de terminar, revisen:
 
-- [ ] La hipótesis y el criterio son los originales.
-- [ ] Registramos hechos, no explicaciones disfrazadas.
-- [ ] Escribimos un aprendizaje y una duda que sigue abierta.
-- [ ] Elegimos un solo próximo paso.
-- [ ] El MVP tiene un usuario, un valor y una única acción central.
+- [X] La hipótesis y el criterio son los originales.
+- [X] Registramos hechos, no explicaciones disfrazadas.
+- [X] Escribimos un aprendizaje y una duda que sigue abierta.
+- [X] Elegimos un solo próximo paso.
+- [X] El MVP tiene un usuario, un valor y una única acción central.
 
 ## Cierre
 
