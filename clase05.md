@@ -512,22 +512,22 @@ La interpretación final se realizará en la Clase 6. Si el equipo ya formula un
 
 ## Criterios de revisión
 
-- [ ] El experimento parte de evidencia de la Clase 4.
-- [ ] Trabaja una sola incertidumbre relevante.
-- [ ] Permite observar una acción o resultado.
-- [ ] La métrica y el criterio se definieron antes de probar.
-- [ ] El instrumento funciona de principio a fin.
-- [ ] La medición queda registrada.
-- [ ] Las simulaciones están identificadas.
-- [ ] El alcance es mínimo.
-- [ ] La IA propuso y construyó; el equipo evaluó y decidió.
-- [ ] Los errores y resultados negativos se conservaron.
-- [ ] El equipo distinguió entre corregir, iterar y pivotar.
-- [ ] Si dejó de insistir, explicó por qué repetir no produciría información nueva.
-- [ ] La siguiente prueba conserva el problema o justifica explícitamente su revisión.
-- [ ] El historial de experimentos anteriores permanece visible.
-- [ ] No se inventó evidencia.
-- [ ] El resultado puede analizarse en la Clase 6.
+- [X] El experimento parte de evidencia de la Clase 4.
+- [X] Trabaja una sola incertidumbre relevante.
+- [X] Permite observar una acción o resultado.
+- [X] La métrica y el criterio se definieron antes de probar.
+- [X] El instrumento funciona de principio a fin.
+- [X] La medición queda registrada.
+- [X] Las simulaciones están identificadas.
+- [X] El alcance es mínimo.
+- [X] La IA propuso y construyó; el equipo evaluó y decidió.
+- [X] Los errores y resultados negativos se conservaron.
+- [X] El equipo distinguió entre corregir, iterar y pivotar.
+- [X] Si dejó de insistir, explicó por qué repetir no produciría información nueva.
+- [X] La siguiente prueba conserva el problema o justifica explícitamente su revisión.
+- [X] El historial de experimentos anteriores permanece visible.
+- [X] No se inventó evidencia.
+- [X] El resultado puede analizarse en la Clase 6.
 
 ---
 
