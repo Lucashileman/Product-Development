@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Time-Mirror MVP v2</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 620px;
+      margin: 40px auto;
+      padding: 0 18px;
+      line-height: 1.45;
+    }
+
+    h1 {
+      margin-bottom: 6px;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 18px;
+    }
+
+    .step {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    button {
+      width: 100%;
+      font-size: 17px;
+      padding: 14px 16px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #999;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    #timer {
+      font-size: 42px;
+      font-weight: bold;
+      margin: 16px 0;
+      text-align: center;
+    }
+
+    #alerta {
+      font-size: 22px;
+      font-weight: bold;
+      margin: 16px 0;
+      text-align: center;
+    }
+
+    #estado,
+    #resultado {
+      margin-top: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Time-Mirror</h1>
+
+  <p>
+    Primera versión mínima para acompañar una sesión de estudio.
+  </p>
+
+  <div class="card">
+
+    <div id="stepText" class="step">
+      Paso 1 de 3
+    </div>
+
+    <div id="screenStart">
+      <p>
+        Cuando estés por empezar a estudiar, iniciá la sesión.
+      </p>
+
+      <button id="startStudy">
+        Empezar sesión de estudio
+      </button>
+    </div>
+
+    <div id="screenSocial" class="hidden">
+      <p>
+        La sesión de estudio está activa.
+      </p>
+
+      <p>
+        Si entrás a Instagram, TikTok u otra red, marcá ese momento acá.
+      </p>
+
+      <button id="enterSocial">
+        Entré a una red social
+      </button>
+    </div>
+
+    <div id="screenTimer" class="hidden">
+      <p>
+        Tiempo en redes:
+      </p>
+
+      <div id="timer">
+        05:00
+      </div>
+
+      <p id="helper">
+        El aviso aparecerá cuando se cumplan 5 minutos.
+      </p>
+
+      <div id="alerta"></div>
+
+      <button id="backStudy">
+        Volví a estudiar
+      </button>
+    </div>
+
+    <div id="screenEnd" class="hidden">
+      <p id="resultado"></p>
+
+      <button id="restart">
+        Empezar otra sesión
+      </button>
+    </div>
+
+  </div>
+
+  <script>
+    const FIVE_MINUTES = 5 * 60;
+
+    let remaining = FIVE_MINUTES;
+    let interval = null;
+    let socialStartedAt = null;
+    let alertShownAt = null;
+
+    const stepText = document.getElementById('stepText');
+    const screenStart = document.getElementById('screenStart');
+    const screenSocial = document.getElementById('screenSocial');
+    const screenTimer = document.getElementById('screenTimer');
+    const screenEnd = document.getElementById('screenEnd');
+
+    const startStudy = document.getElementById('startStudy');
+    const enterSocial = document.getElementById('enterSocial');
+    const backStudy = document.getElementById('backStudy');
+    const restart = document.getElementById('restart');
+
+    const timer = document.getElementById('timer');
+    const helper = document.getElementById('helper');
+    const alerta = document.getElementById('alerta');
+    const resultado = document.getElementById('resultado');
+
+    function show(screen, step) {
+      [screenStart, screenSocial, screenTimer, screenEnd]
+        .forEach(s => s.classList.add('hidden'));
+
+      screen.classList.remove('hidden');
+      stepText.textContent = step;
+    }
+
+    function fmt(sec) {
+      const m = Math.floor(sec / 60)
+        .toString()
+        .padStart(2, '0');
+
+      const s = (sec % 60)
+        .toString()
+        .padStart(2, '0');
+
+      return `${m}:${s}`;
+    }
+
+    function resetTimer() {
+      if (interval) {
+        clearInterval(interval);
+      }
+
+      interval = null;
+      remaining = FIVE_MINUTES;
+      socialStartedAt = null;
+      alertShownAt = null;
+
+      timer.textContent = '05:00';
+      alerta.textContent = '';
+
+      helper.textContent =
+        'El aviso aparecerá cuando se cumplan 5 minutos.';
+    }
+
+    startStudy.addEventListener('click', () => {
+      resetTimer();
+      show(screenSocial, 'Paso 2 de 3');
+    });
+
+    enterSocial.addEventListener('click', () => {
+      resetTimer();
+
+      socialStartedAt = Date.now();
+
+      show(screenTimer, 'Paso 3 de 3');
+
+      interval = setInterval(() => {
+        remaining -= 1;
+
+        timer.textContent =
+          fmt(Math.max(remaining, 0));
+
+        if (remaining <= 0) {
+          clearInterval(interval);
+          interval = null;
+
+          alertShownAt = Date.now();
+
+          alerta.textContent =
+            'Llevás 5 minutos en redes.';
+
+          helper.textContent =
+            'Cuando vuelvas a estudiar, marcálo abajo.';
+        }
+      }, 1000);
+    });
+
+    backStudy.addEventListener('click', () => {
+      const now = Date.now();
+
+      if (interval) {
+        clearInterval(interval);
+        interval = null;
+      }
+
+      let message;
+
+      if (alertShownAt) {
+        const sec =
+          Math.round((now - alertShownAt) / 1000);
+
+        message =
+          `Volviste a estudiar ${sec} segundos después del aviso.`;
+
+      } else if (socialStartedAt) {
+        const sec =
+          Math.round((now - socialStartedAt) / 1000);
+
+        message =
+          `Volviste a estudiar antes de los 5 minutos, después de ${sec} segundos en redes.`;
+
+      } else {
+        message = 'Sesión finalizada.';
+      }
+
+      resultado.textContent = message;
+
+      show(screenEnd, 'Sesión finalizada');
+    });
+
+    restart.addEventListener('click', () => {
+      resetTimer();
+      show(screenStart, 'Paso 1 de 3');
+    });
+  </script>
+</body>
+</html>
