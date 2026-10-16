@@ -42,13 +42,13 @@ Una versión que usa datos de demostración debe identificarlos. Que funcione t�
 Compartan el archivo de la Clase 6 y escriban:
 
 ```text
-Leé nuestro aprendizaje-y-mvp.md. Recuperá el usuario, su situación,
-el valor que queremos entregar, la única acción central del MVP,
-la decisión que tomamos y la duda que sigue abierta.
-No inventes datos ni des por validado lo que todavía no sabemos.
-Si falta una decisión indispensable, preguntanos de a una.
-Vamos a construir con [HERRAMIENTA].
-Todavía no construyas: primero conversemos el recorrido y el alcance.
+- Usuario: estudiantes de Marketing de 2do año que utilizan redes sociales durante sus momentos de estudio.
+- Situación: el estudiante comienza una sesión de estudio y puede distraerse usando redes sociales sin darse cuenta de cuánto tiempo pasa en ellas.
+- Valor: ayudar al estudiante a tomar conciencia del tiempo que lleva usando redes para que pueda volver antes a estudiar.
+- Acción central: iniciar una sesión de estudio y recibir un aviso sobre el tiempo que lleva usando redes.
+- Decisión de Clase 6: avanzar con una primera versión mínima de Time-Mirror.
+- Duda pendiente: si los estudiantes utilizarían Time-Mirror voluntariamente durante sus sesiones de estudio.
+- Herramienta elegida: ChatGPT.
 ```
 
 Corrijan lo que la IA haya entendido mal. No vuelvan a completar el canvas ni a relatar todo el proyecto.
@@ -60,12 +60,11 @@ Si todavía falta evidencia, mantengan esa duda explícita. Pueden construir par
 Pidan:
 
 ```text
-Proponé el recorrido más corto para entregar ese valor:
-cómo empieza el usuario, qué hace y qué resultado obtiene.
-Definí cómo comprobaremos que funciona y qué debería pasar
-si faltan datos o el usuario ingresa algo inválido.
-No agregues funcionalidades fuera de la acción central.
-Esperá nuestra respuesta para acordar o ajustar el recorrido.
+Inicio → Empezar sesión de estudio → Entré a una red social → comienza un contador de 5 minutos → aparece el aviso “Llevás 5 minutos en redes” → Volví a estudiar.
+
+Criterio de funcionamiento: cuando el usuario indica que entró a una red social, el sistema debe contar 5 minutos y mostrar correctamente el aviso.
+
+Si todavía no comenzó una sesión de estudio, no debe poder iniciar el registro de uso de redes.
 ```
 
 Revisen: **¿la persona obtiene un resultado útil al terminar?** Decidan con la IA el recorrido que van a construir.
@@ -74,13 +73,15 @@ Ejemplo ilustrativo: un estudiante consulta el último reporte por sector y su h
 
 ## 3. Recortar el alcance y resolver los datos
 
-Pidan:
-
 ```text
-Para ese recorrido, separá en una tabla:
-qué debe funcionar ahora, qué podemos operar manualmente o simular
-y qué queda afuera. Indicá qué datos necesitamos y de dónde saldrán.
-Si algo esencial no está disponible, proponé una alternativa sencilla.
+| Categoría | Definición |
+|---|---|
+| Debe funcionar ahora | Iniciar una sesión de estudio, indicar que entró a una red social, contar 5 minutos, mostrar el aviso y registrar la vuelta al estudio. |
+| Manual o simulado | La detección de que el usuario entró a Instagram o TikTok. El usuario lo indica mediante un botón. |
+| Fuera de alcance | Detección automática de redes, login, perfiles, estadísticas, gamificación, pagos, bloqueos e integraciones. |
+
+- Datos necesarios: acciones del usuario y tiempos registrados durante la sesión.
+- Fuente de los datos: el propio uso del MVP.
 ```
 
 No hace falta automatizar todo. Una operación manual puede sostener el primer MVP si permite entregar el valor acordado.
@@ -94,12 +95,16 @@ En el ejemplo de estacionamiento, ¿quién informa la ocupación y cuándo se ac
 Cuando el recorrido y el alcance estén claros, escriban:
 
 ```text
-Construí la primera versión con el recorrido y alcance que acordamos.
-Usá la alternativa más sencilla que podamos ejecutar en esta herramienta.
-Respetá la procedencia de los datos y señalá lo manual o simulado.
-Incluí una respuesta clara cuando falten datos o haya una entrada inválida.
-Al terminar, indicá cómo abrirla y probá el recorrido principal.
-Decinos qué verificaste y qué falta probar. No agregues funciones nuevas.
+Construimos con ChatGPT una primera versión funcional de Time-Mirror.
+
+La versión permite:
+- empezar una sesión de estudio;
+- indicar manualmente que el usuario entró a una red social;
+- iniciar un contador de 5 minutos;
+- mostrar el aviso “Llevás 5 minutos en redes”;
+- registrar cuándo el usuario vuelve a estudiar.
+
+La detección automática de Instagram o TikTok todavía no está incluida, porque para este primer MVP se resolvió de manera manual.
 ```
 
 Abran la versión y úsenla. No se queden mirando la pantalla ni acepten “listo” como prueba de funcionamiento.
@@ -117,8 +122,27 @@ Usen cuatro datos: **qué hice, qué esperaba, qué pasó y qué evidencia tengo
 Después pidan:
 
 ```text
-Corregí este problema concreto. Explicá brevemente qué cambiaste
-y cómo podemos comprobarlo. Conservá el recorrido que ya funciona.
+Primera versión:
+Se construyó una primera versión funcional de Time-Mirror en HTML.
+
+Problema detectado:
+Al probarla, no quedaba suficientemente claro cuándo había que tocar cada botón ni cómo se relacionaba el contador con cada momento del recorrido.
+
+Devolución concreta a la IA:
+“Al probar el MVP, no se entiende bien cuándo hay que tocar cada botón ni cómo se relaciona el tiempo con cada acción. Queremos que el recorrido se muestre paso a paso y que quede claro cuándo empieza el contador y cuándo aparece el aviso.”
+
+Corrección realizada:
+Se modificó el MVP para mostrar un solo paso por vez:
+1. Empezar sesión de estudio.
+2. Indicar que entró a una red social.
+3. Mostrar el contador de 5 minutos.
+4. Mostrar el aviso.
+5. Marcar que volvió a estudiar.
+
+También se agregaron textos explicativos para indicar qué debe hacer el usuario en cada momento.
+
+Cómo comprobamos el cambio:
+Abrimos la nueva versión y repetimos el recorrido completo. Verificamos que cada acción aparezca en el orden correcto y que el contador empiece únicamente después de marcar “Entré a una red social”.
 ```
 
 Vuelvan a probar. Trabajen sobre una prioridad por vez. Si la IA agrega algo innecesario, pregunten: **“¿Esto ayuda a completar la acción central que acordamos?”**
