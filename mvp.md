@@ -19,12 +19,12 @@
 
 ## Prueba e iteración
 
-- Quién probó y tarea: una primera prueba del MVP fue realizada recorriendo el flujo completo de uso.
+- Quién probó y tarea: un estudiante probó el MVP durante una sesión de estudio. Debía utilizar Time-Mirror mientras estudiaba y seguir el recorrido si entraba a una red social.
 
-- Qué ocurrió y cómo lo sabemos: la primera versión funcionaba, pero no quedaba claro cuándo había que tocar cada botón ni cómo se relacionaba el contador con cada momento del recorrido.
+- Qué ocurrió y cómo lo sabemos: comenzó su sesión de estudio y luego entró a una red social. Permaneció en ella hasta recibir el aviso de los 5 minutos y, después del aviso, volvió a estudiar.
 
-- Devolución concreta que dimos a la IA: pedimos que el recorrido fuera más claro, mostrando un paso por vez y explicando mejor cuándo empieza el contador y cuándo aparece el aviso.
+- Devolución concreta que dimos a la IA: en la primera versión no quedaba claro cuándo tocar cada botón ni cómo se relacionaba el contador con el recorrido. Pedimos mostrar el proceso paso a paso.
 
-- Cambio realizado y resultado de la nueva prueba: se creó una segunda versión en la que cada paso aparece de forma secuencial. El recorrido quedó más claro y el contador comienza únicamente después de indicar que se entró a una red social.
+- Cambio realizado y resultado de la nueva prueba: se creó una segunda versión más clara, mostrando una acción por vez. El estudiante pudo completar el recorrido sin ayuda y entendió el aviso.
 
-- Próximo ajuste: probar la versión con otra persona sin explicarle dónde tocar y observar si puede completar el recorrido por sí sola.
+- Próximo ajuste: probar el MVP con más estudiantes y registrar exactamente cuánto tardan en volver a estudiar después de recibir el aviso.
