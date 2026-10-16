@@ -164,9 +164,10 @@ Registren intentos y acciones completadas, aunque sea manualmente. Para explorar
 Pueden pedirle a la IA:
 
 ```text
-Estas son nuestras observaciones: [OBSERVACIONES REALES].
-Separá problemas de funcionamiento, dificultades de uso y dudas sobre el valor.
-Proponé un próximo ajuste. No inventes causas ni resultados.
+- Problemas de funcionamiento: no se detectaron problemas técnicos durante la prueba.
+- Dificultades de uso: el usuario pudo completar el recorrido sin ayuda y entendió cuándo debía volver a estudiar.
+- Dudas sobre el valor: todavía no sabemos si el aviso tendría el mismo efecto en más usuarios ni si usarían Time-Mirror de manera sostenida.
+- Próximo ajuste: seguir probando el MVP con más estudiantes y registrar cuánto tardan en volver a estudiar después del aviso.
 ```
 
 Decidan el ajuste. Si queda tiempo, impleméntenlo y vuelvan a probarlo.
@@ -177,20 +178,22 @@ Completen con ayuda de la IA. Manténganlo breve; no hace falta copiar toda la c
 
 ```markdown
 # Nuestro primer MVP
-- Usuario y situación:
-- Valor y acción central:
-- Acceso o forma de ejecución:
-- Recorrido: inicio → acción → resultado.
-- Funciona / manual o simulado / fuera de alcance:
-- Evidencia disponible y duda pendiente:
-- Qué medimos: usuarios que intentan y completan la acción; resultado útil observado.
+- Usuario y situación: estudiantes de Marketing de 2do año que utilizan redes sociales durante sus momentos de estudio y pueden perder noción del tiempo que pasan en ellas.
+- Valor y acción central: ayudar al estudiante a tomar conciencia del tiempo que lleva usando redes mientras estudia. La acción central es iniciar una sesión de estudio y recibir un aviso luego de 5 minutos en redes.
+- Acceso o forma de ejecución: abrir el archivo `time-mirror-mvp-v2.html` en el navegador.
+- Recorrido: empezar sesión de estudio → indicar “Entré a una red social” → comienza el contador de 5 minutos → aparece el aviso → marcar “Volví a estudiar”.
+- Funciona / manual o simulado / fuera de alcance: funciona el inicio de sesión, el contador, el aviso y el registro de vuelta al estudio. La detección de entrada a redes es manual. Quedan fuera de alcance la detección automática, login, perfiles, estadísticas, gamificación, pagos e integraciones.
+- Evidencia disponible y duda pendiente: en la prueba realizada, el usuario permaneció en redes hasta recibir el aviso de los 5 minutos y luego volvió a estudiar. Todavía no sabemos si este comportamiento se repetiría con más usuarios ni si utilizarían la herramienta de forma sostenida.
+- Qué medimos: si el usuario completa el recorrido, si vuelve a estudiar después del aviso y cuánto tarda en hacerlo.
 
 ## Prueba e iteración
-- Quién probó (rol) y tarea:
-- Qué ocurrió y cómo lo sabemos:
-- Devolución concreta que dimos a la IA:
-- Cambio realizado y resultado de la nueva prueba:
-- Próximo ajuste:
+- Quién probó (rol) y tarea: Santos Alvarado probó el MVP durante una sesión de estudio. La tarea fue utilizar Time-Mirror mientras estudiaba y, si entraba a una red social, seguir el recorrido del MVP hasta volver a estudiar.
+- Qué ocurrió y cómo lo sabemos: comenzó su sesión de estudio y, después de un tiempo, entró a una red social. No volvió a estudiar por su cuenta antes de los 5 minutos. Al cumplirse ese tiempo recibió el aviso y, luego de verlo, volvió a su sesión de estudio.
+- ¿Pudo completar la acción sin ayuda?: Sí.
+- ¿Entendió el resultado y sus limitaciones?: Sí. Entendió el aviso y lo utilizó como señal para volver a estudiar.
+- Obstáculo encontrado: no se observó un problema de funcionamiento durante esta prueba. El usuario permaneció en redes hasta recibir el aviso.
+- Devolución concreta: el aviso fue útil como recordatorio para cortar el uso de redes y volver a estudiar.
+- Próximo ajuste: seguir probando el MVP con más personas para observar si el mismo comportamiento se repite y registrar cuánto tardan en volver a estudiar después del aviso.
 ```
 
 ## Antes de entregar
