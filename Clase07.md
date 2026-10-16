@@ -200,7 +200,7 @@ Completen con ayuda de la IA. Manténganlo breve; no hace falta copiar toda la c
 
 - [X] Podemos acceder a la versión y completar la acción central.
 - [X] Sabemos qué funciona y qué depende de operación manual o simulación.
-- [X] Probamos el recorrido principal y qué ocurre cuando faltan datos o la entrada es inválida.
+- [ ] Probamos el recorrido principal y qué ocurre cuando faltan datos o la entrada es inválida.
 - [X] Registramos una devolución concreta a la IA y qué pasó después, o marcamos lo pendiente.
 - [X] Registramos la prueba con otra persona o la dejamos explícitamente pendiente.
 - [X] Conservamos una duda sobre el valor y elegimos el próximo ajuste.
