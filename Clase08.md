@@ -26,12 +26,12 @@ Si aún no tienen un recorrido funcional, recorten el alcance hasta lograr **una
 
 Completen brevemente:
 
-1. Nuestro usuario tiene el problema de… cuando…
-2. La hipótesis más riesgosa era…
-3. Para probarla hicimos…
-4. Observamos que…
-5. Por eso decidimos…
-6. Nuestro MVP permite… y todavía necesitamos comprobar…
+1. Nuestro usuario tiene el problema de perder noción del tiempo que pasa en redes sociales cuando está estudiando.
+2. La hipótesis más riesgosa era que mostrarle cuánto tiempo lleva usando redes podía ayudarlo a volver más rápido a estudiar.
+3. Para probarla hicimos un experimento Wizard of Oz y luego construimos un MVP funcional de Time-Mirror.
+4. Observamos que en el experimento anterior 4 de 6 participantes volvieron a estudiar dentro de los 2 minutos posteriores al aviso. En la prueba del MVP, el usuario permaneció en redes hasta recibir el aviso de los 5 minutos y después volvió a estudiar.
+5. Por eso decidimos avanzar con Time-Mirror y seguir probando su uso con más estudiantes.
+6. Nuestro MVP permite iniciar una sesión de estudio, indicar que se entró a una red social, contar 5 minutos, mostrar un aviso y registrar la vuelta al estudio. Todavía necesitamos comprobar si este comportamiento se repite con más usuarios y si usarían la herramienta de forma sostenida.
 
 Abran las evidencias que respaldan las respuestas. Si algo no se probó, márquenlo como pendiente. Pueden pedir a la IA ayuda para ordenar el relato, sin inventar resultados.
 
@@ -43,130 +43,136 @@ Definan una tarea concreta y el resultado que permite considerarla completada.
 
 La consigna debe describir el objetivo, sin explicar dónde hacer clic. Antes de probar, acuerden:
 
-- Dónde empieza y cuál es el resultado observable de la tarea.
-- Qué información es real, manual o simulada.
-- Qué cuenta como ayuda del equipo.
-- Cuándo termina el intento: éxito, abandono o un límite acordado.
+- Tarea: “Estás estudiando y en un momento entrás a una red social. Usá Time-Mirror para controlar ese desvío y volver a estudiar.”
+- Inicio de la tarea: cuando el participante comienza una sesión de estudio con Time-Mirror.
+- Resultado observable: el participante completa el recorrido y vuelve a estudiar luego del aviso.
+- Información real: la sesión de estudio, la entrada a una red social y la vuelta al estudio.
+- Información manual: el usuario debe indicar en el MVP cuándo entró a una red social.
+- Información simulada: la detección automática de Instagram o TikTok no está implementada.
+- Qué cuenta como ayuda: cualquier indicación del equipo sobre qué botón tocar, qué paso seguir o cómo continuar el recorrido.
+- Fin del intento:
+- Éxito: el participante completa el recorrido y vuelve a estudiar.
+- Abandono: deja de usar el MVP o no vuelve a la actividad académica.
+- El intento termina cuando completa el recorrido o decide abandonar.
 
 **Consultar una recomendación y encontrar estacionamiento son resultados diferentes.** La interfaz puede funcionar sin que todavía hayamos probado el valor en el mundo real.
 
 ## 3. Definir tres métricas antes de probar
 
-| Métrica | Cómo medirla | Qué decisión informa |
+| Métrica | Cómo medirla | Fuente y momento | Criterio exploratorio | Qué decisión informa
 | --- | --- | --- |
-| Éxito de la tarea | Participantes que completan / participantes que intentan. | Qué impide completar el recorrido principal. |
-| Autonomía | Participantes que completan sin ayuda / participantes que intentan. | Qué instrucciones o interacciones necesitan mejorar. |
-| Valor | Una medida vinculada con el problema elegido. | Si el MVP empieza a producir el resultado útil esperado. |
+| Éxito de la tarea | Participantes que completan / participantes que intentan. | Observación directa durante el primer intento | Al menos 4 de 5 completan | Si el recorrido principal funciona o necesita cambios|
+| Autonomía | Participantes que completan sin ayuda / participantes que intentan. | Observación directa durante el primer intento | Al menos 4 de 5 completan sin ayuda | Si las instrucciones y la interacción son claras|
+| Valor | Participantes que vuelven a estudiar después del aviso | Observación directa durante la prueba | Al menos 4 de 5 vuelven a estudiar | Si el aviso genera el comportamiento esperado |
 
-Para cada una definan la fuente, el momento de medición, un criterio exploratorio de éxito y qué harían según el resultado. La IA puede proponer opciones; el equipo debe elegir y justificar.
+- Se cuenta solamente el primer intento de cada participante.
+- Los reintentos se registran aparte.
+- Los abandonos y fallas se mantienen dentro del registro.
+- Si falta un dato, se informa como “no medido”.
 
-Ejemplo de criterio, no regla universal: “Esperamos que al menos 4 de 5 personas completen la tarea sin ayuda”. Con muestras pequeñas, informen **4 de 5**, sin generalizar a todos los usuarios.
-
-Cuenten el primer intento por persona y versión; registren reintentos aparte. Incluyan los abandonos y fallas. Si nadie intentó, escriban “no medido”; si falta información, indiquen el dato faltante.
-
-### Elegir una métrica de valor
-
-| Problema | Posible métrica de valor | Qué requiere |
-| --- | --- | --- |
-| Demora al estacionar | Minutos desde que empieza la búsqueda hasta estacionar. | Prueba en contexto real. Para afirmar ahorro, una referencia comparable. |
-| Dificultad para estudiar a tiempo | Sesiones de estudio planificadas que se completan en una semana. | Seguimiento durante esa semana, con criterio de finalización definido. |
-| Errores en una tarea administrativa | Cantidad de errores por tarea realizada. | Definición de error y revisión del resultado. |
-
-Si no pueden medir valor en el aula, escriban **“no medido”** y definan una prueba posterior: con quién, dónde, cuándo y cómo recogerán el dato. Un clic puede ser una señal de interés; no demuestra que resolvieron el problema.
-
-Si miden tiempos, definan inicio y fin. Registren por separado los intentos fallidos: que quienes terminaron lo hagan más rápido no alcanza para afirmar mejora si más personas abandonaron.
 
 ## 4. Probar sin enseñar el recorrido
 
-Busquen, como orientación práctica, **3 a 5 participantes por ronda**. Si consiguen menos, registren cuántos y reconozcan la limitación.
+Probamos la versión v2 con 5 participantes. Tres pertenecían al segmento objetivo y dos estaban fuera del segmento.
 
-Distribuyan los roles: una persona facilita, otra observa y otra registra. Pueden combinar roles si el equipo es pequeño.
+A todos se les dio la misma consigna: “Estás estudiando y en un momento entrás a una red social. Usá Time-Mirror para controlar ese desvío y volver a estudiar.”
 
-1. Expliquen el contexto y la tarea.
-2. Dejen que la persona intente completarla sin indicaciones paso a paso.
-3. Observen dónde duda, se equivoca o abandona.
-4. Si la ayudan, anótenlo: ya no cuenta como finalización autónoma.
-5. Al terminar, pregunten qué esperaba y qué le resultó confuso.
-
-Identifiquen a las personas como U1, U2, etc. No necesitan registrar nombres u otros datos personales.
-
-**Los compañeros fuera del segmento sirven para detectar dificultades de uso. Esa prueba no demuestra demanda, disposición a pagar o valor para los usuarios reales.**
-
-La IA puede revisar fallas técnicas o simular escenarios, pero esas pruebas no se cuentan como participantes humanos.
+No se les explicó dónde debían tocar ni qué pasos seguir.
 
 ### Registro mínimo
 
 | ID | ¿Pertenece al segmento? | Versión | ¿Intentó? | ¿Completó? | ¿Sin ayuda? | Valor y unidad / no medido | Dificultad y ayuda recibida |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| U1 | Por completar | Inicial | Por completar | Por completar | Por completar | Por completar | Por completar |
+| U1 | NO | v2 | SI | SI | No medido | Volvió a estudiar a los 3 min 46 seg | Volvió antes del aviso |
+| U2 | NO | v2 | SI | SI | No medido | Volvió después del aviso | Necesitó llegar al aviso de los 5 minutos 
+| U3 | SI | v2 | SI | SI | No medido | Volvió después del aviso | Permaneció en redes hasta el aviso
+| U4 | SI | v2 | SI | SI | No medido | Volvió después del aviso | Permaneció en redes hasta el aviso
+| U5 | SI | v2 | SI | SI | No medido | No volvió después del primer aviso | Permaneció en redes después del aviso
 
-El registro manual es suficiente. Si deciden instrumentar el MVP con IA, verifiquen que los eventos se guarden y puedan consultarse. No hace falta construir un dashboard para esta clase.
+Resultados de la primera ronda
+
+- Éxito: 4 de 5 participantes completaron la tarea.
+- Autonomía: no medida.
+- Valor: 4 de 5 participantes volvieron a estudiar.
+- Entre los 3 usuarios del segmento, 2 volvieron después del aviso y 1 continuó utilizando redes.
 
 ## 5. Elegir una mejora con evidencia
 
-Revisen los registros y separen:
+Hechos observados:
 
-- **Hecho:** lo que observaron.
-- **Posible causa:** su interpretación, todavía a comprobar.
-- **Mejora:** el cambio que proponen.
+- Los 5 participantes intentaron utilizar el MVP.
+- 4 de 5 volvieron a estudiar.
+- Un participante fuera del segmento volvió antes de los 5 minutos.
+- Los otros 4 llegaron hasta el aviso.
+- Entre los 3 participantes del segmento, 2 volvieron después del aviso y 1 permaneció en redes.
 
-Prioricen **una dificultad** según cuánto bloquea la tarea o el valor, cuántas veces apareció y el esfuerzo para corregirla. No agreguen funciones sin relación con lo observado.
+Posible causa:
 
-Si no aparecieron dificultades relevantes, justifiquen mantener la versión y definan una prueba más exigente o en contexto real. No hay que cambiar por cambiar.
+- No podemos saber con certeza por qué uno de los usuarios continuó utilizando redes después del aviso. Una posible causa es que el aviso no hiciera suficientemente clara la acción que se esperaba del usuario, pero esto todavía debía comprobarse.
+
+Mejora priorizada:
+
+- Priorizamos hacer más clara la acción de volver a estudiar después del aviso. Elegimos esta dificultad porque está directamente relacionada con el valor principal de Time-Mirror: ayudar al estudiante a tomar conciencia del tiempo perdido y volver a estudiar.
+
+Alternativas consideradas
+
+- Hacer el aviso más visible.
+- Mostrar una acción clara de “Volver a estudiar” junto con el aviso.
+- Mostrar un segundo recordatorio si el usuario continúa en redes.
+
+Decisión del equipo: Elegimos la opción 2 porque era un cambio pequeño y directo, sin agregar funciones innecesarias.
 
 ## 6. Dirigir la mejora con IA
 
-Usen un pedido como este, completándolo con sus datos reales:
+- Pedido realizado a la IA: “Implementá un botón claro de ‘Volver a estudiar’ que aparezca junto con el aviso de los 5 minutos. Conservá el recorrido actual y el contador. El criterio de aceptación es que el botón aparezca cuando se cumplan los 5 minutos y permita finalizar correctamente la sesión.”
+- Cambio realizado: Se creó la versión v3 del MVP. Cuando se cumplen los 5 minutos aparece el aviso junto con el botón “Volver a estudiar”, haciendo más clara la acción que puede realizar el usuario.
+- Verificación técnica: Se verificó que:
+1. el recorrido comienza correctamente;
+2. el contador empieza después de indicar que se entró a una red social;
+3. el aviso aparece al cumplirse los 5 minutos;
+4. el botón “Volver a estudiar” aparece junto con el aviso;
+5. al utilizar el botón, la sesión finaliza correctamente.
+La prueba técnica confirma que la función opera correctamente, pero no demuestra por sí sola que la mejora genere mayor valor para los usuarios.
 
-> Nuestro usuario es [usuario] y busca [resultado]. Probamos la versión [versión] con [cantidad y perfil]. Observamos [hechos]. Elegimos trabajar sobre [dificultad] porque [motivo]. Ayudanos a analizar posibles causas y proponé hasta tres cambios pequeños. Antes de modificar, discutamos las alternativas.
-
-Después de elegir:
-
-> Implementá [cambio elegido]. Conservá [lo que ya funciona]. El criterio de aceptación es [resultado observable]. Probá el recorrido principal y un caso de error. Indicá qué verificaste y qué sigue pendiente de prueba con personas.
-
-Conserven la versión inicial o un punto de recuperación. Identifiquen la nueva versión. Si la IA sólo les entrega un prompt o un diseño, todavía deben implementarlo en su herramienta de construcción.
 
 ## 7. Volver a probar y comparar
 
-Repitan la misma tarea y las mismas definiciones de métricas, preferentemente con personas nuevas del mismo perfil. Si participan las mismas, aclaren que ya conocen el recorrido y eso puede influir.
+Realizamos una segunda ronda con 5 participantes utilizando la versión v3. Tres participantes pertenecían al segmento y dos estaban fuera del segmento.
 
-| Métrica | Antes: cantidad y resultado | Después: cantidad y resultado | Qué aprendimos y qué limita la comparación |
-| --- | --- | --- | --- |
-| Éxito | Por completar | Por completar | Por completar |
-| Autonomía | Por completar | Por completar | Por completar |
-| Valor | Por completar / no medido | Por completar / no medido | Por completar |
+| ID | ¿Pertenece al segmento? | Versión | ¿Intentó? | ¿Completó? | ¿Sin ayuda? | Resultado Observado
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| U1 | NO | v3 | SI | SI | No medido | Llegó a los 5 minutos, vio la opción de volver a estudiar y volvió
+| U2 | NO | v3 | SI | SI | No medido | Llegó a los 5 minutos, vio la opción de volver a estudiar y volvió
+| U3 | SI | v3 | SI | SI | No medido | Después del aviso de los 5 minutos volvió a estudiar
+| U4 | SI | v3 | SI | SI | No medido | Después del aviso de los 5 minutos volvió a estudiar
+| U5 | SI | v3 | SI | SI | No medido | Continuó en redes otros 5 minutos y luego volvió a estudiar
 
-Registren cambios de contexto, perfil, dispositivo o instrucciones. Esta comparación es exploratoria: no demuestra por sí sola que el cambio causó el resultado.
+Comparacion:
 
-Si no mejoró, vuelvan a revisar las observaciones y elijan otra modificación pequeña. Un resultado negativo no descarta automáticamente el problema ni la solución: buscamos aprender con evidencia barata.
+| Metrica | Antes: v2 | Después: v3 | Qué aprendimos y limitaciones
+| Éxito | 4 de 5 completaron | 5 de 5 completaron | En la segunda ronda todos completaron el recorrido. La muestra es pequeña y los participantes fueron distintos |
+| Autonomía | No medido | No medido| No registramos suficientemente si los participantes necesitaron ayuda |
+| Valor | 4 de 5 volvieron a estudiar | 5 de 5 terminaron volviendo; 4 de 5 lo hicieron después del primer aviso | El resultado fue mejor en esta ronda, pero no podemos afirmar que el cambio haya sido la única causa |
 
-Si no alcanzaron a repetir la prueba, déjenla pendiente. No reemplacen resultados reales por lo que esperan que ocurra.
+Qué aprendimos:
 
-## Entregable
+- Los 5 participantes terminaron volviendo a estudiar.
+- 4 de 5 volvieron luego del primer aviso.
+- Entre los 3 usuarios del segmento, 2 volvieron después del primer aviso y 1 necesitó más tiempo.
+- El botón “Volver a estudiar” hace más explícita la acción propuesta por Time-Mirror.
+- El aviso no garantiza que todos los estudiantes vuelvan inmediatamente.
+- Todavía necesitamos comprobar qué hacer cuando un usuario recibe el aviso pero decide continuar utilizando redes.
 
-Guarden en su segundo cerebro **`pruebas-y-mejoras-mvp.md`**, junto con el MVP actualizado. Actualicen `mvp.md` si cambió el acceso o la versión.
+Próximo paso: 
 
-El documento debe incluir:
+Incertidumbre pendiente: qué mecanismo puede ayudar a los usuarios que ven el primer aviso pero deciden seguir utilizando redes.
 
-1. Equipo, fecha, usuario, problema y acceso al MVP.
-2. Tarea, criterio de finalización y definición de ayuda.
-3. Las tres métricas, fuentes, criterios y decisiones que informan.
-4. Registro de participantes y observaciones por versión.
-5. Dificultad priorizada, justificación y pedido realizado a la IA.
-6. Cambio implementado y verificación técnica.
-7. Comparación antes/después y sus limitaciones.
-8. Próxima incertidumbre, acción más barata para resolverla, responsable y momento.
+Acción más barata: probar un segundo recordatorio después de 5 minutos adicionales.
 
-No hace falta entregar toda la conversación con la IA. Sí debe quedar claro qué decidió el equipo y sobre qué evidencia.
+Responsable: equipo de Time-Mirror.
 
-## Para comenzar con la skill
+Momento: próxima ronda de prueba con usuarios del segmento.
 
-Activen **medir-y-mejorar-mvp** y compartan:
+Qué observar: cuántos usuarios vuelven con el primer aviso y cuántos necesitan un segundo recordatorio.
 
-> Vamos con la clase 8. Este es nuestro MVP y nuestro mvp.md. Acompañanos paso a paso para elegir la tarea, definir las tres métricas, probar con personas y mejorar con IA. Ayudanos a tomar las decisiones sin inventar evidencias ni resolver todo de una vez.
-
-## Cierre
-
-Cada equipo debería poder explicar: **“Medimos esto, observamos esto, decidimos este cambio y al volver a probar ocurrió esto”**.
-
-Si falta una prueba o todavía no pueden medir valor, declárenlo y acuerden el siguiente paso. El objetivo es mejorar la calidad de las decisiones, no conseguir números lindos.
+Decisión según el resultado: si el segundo recordatorio ayuda a los usuarios que ignoran el primero, evaluar incorporarlo a una próxima versión del MVP.
