@@ -87,7 +87,7 @@ No se les explicó dónde debían tocar ni qué pasos seguir.
 | U2 | NO | v2 | SI | SI | No medido | Volvió después del aviso | Necesitó llegar al aviso de los 5 minutos 
 | U3 | SI | v2 | SI | SI | No medido | Volvió después del aviso | Permaneció en redes hasta el aviso
 | U4 | SI | v2 | SI | SI | No medido | Volvió después del aviso | Permaneció en redes hasta el aviso
-| U5 | SI | v2 | SI | SI | No medido | No volvió después del primer aviso | Permaneció en redes después del aviso
+| U5 | SI | v2 | SI | NO | No medido | No volvió después del primer aviso | Permaneció en redes después del aviso
 
 Resultados de la primera ronda
 
