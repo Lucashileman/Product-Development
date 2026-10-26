@@ -27,4 +27,4 @@
 
 - Cambio realizado y resultado de la nueva prueba: se creó una segunda versión más clara, mostrando una acción por vez. El estudiante pudo completar el recorrido sin ayuda y entendió el aviso.
 
-- Próximo ajuste: probar el MVP con más estudiantes y registrar exactamente cuánto tardan en volver a estudiar después de recibir el aviso.
+- Próximo ajuste: probar un segundo recordatorio después de 5 minutos adicionales para observar si ayuda a los usuarios que ven el primer aviso pero deciden continuar usando redes.
