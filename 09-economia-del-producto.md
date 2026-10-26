@@ -1,155 +1,86 @@
-# Clase 9 — ¿Cómo se sostiene nuestro producto?
+# Economía del producto — Time-Mirror
 
-## Guía para alumnos · Desarrollo de Productos · 40 minutos
-
-Ya construyeron un MVP y trabajaron sobre su uso y valor. Ahora vamos a aplicar lo visto en la clase de finanzas: **¿quién financiaría este valor y cuánto cuesta entregarlo?**
-
-La IA ayuda a identificar costos, calcular y cuestionar supuestos. El equipo elige el modelo, revisa los números y decide qué comprobar. No buscamos un plan financiero completo ni demostrar que el negocio ya funciona.
-
-## Qué necesitan y qué entregan
-
-Compartan con la IA `mvp.md` y `pruebas-y-mejoras-mvp.md`, o sus equivalentes. Si falta alguno, alcanza con explicar usuario, valor, funcionamiento y evidencia disponible. No hay que rehacer el canvas.
-
-**Entregable:** `economia-del-producto.md`, de aproximadamente una página, en el repositorio. Incluirá pagador, unidad, ingresos y costos estimados, contribución o costo unitario, adquisición inicial y un supuesto económico por probar. No necesitan una planilla ni copiar toda la conversación.
-
-## Cómo empezar con IA
-
-Si permite skills, activen **explorar-economia-producto**. También pueden adjuntar su `SKILL.md` como instrucciones. Si no tienen esa posibilidad, adjunten esta guía y usen el mismo pedido:
-
-```text
-Vamos con la clase 9: explorar la economía de nuestro producto.
-Leé esta guía y los archivos del MVP que compartimos.
-Acompañanos paso a paso, con una pregunta por vez. Recuperá lo que ya
-esté documentado y esperá nuestras decisiones antes de avanzar.
-No armes todo el análisis de una vez ni inventes precios, costos o clientes.
-Separá datos observados, referencias, estimaciones y pendientes.
-Queremos terminar con economia-del-producto.md breve.
-Empezá resumiendo nuestro producto y preguntando por la primera decisión
-pendiente: quién pagaría o financiaría el valor que ofrecemos.
-```
-
-**Conversen con la IA entre pasos.** Si ofrece un modelo completo de entrada, pídanle volver a la primera decisión que todavía no tomaron.
-
-## 1. ¿Quién pagaría y por qué? · 5 minutos
-
-Distingan quién usa, quién recibe valor y quién paga o financia. No siempre son la misma persona.
-
-Definan un pagador posible y qué beneficio justificaría su aporte. Marquen si es una hipótesis o si existe evidencia. Que alguien haya usado el MVP no demuestra que pagaría.
-
-Si el usuario no paga, exploren quién podría financiarlo y con qué incentivo. Si no lo saben, registren el pendiente: no inventen una suscripción o un sponsor para completar la tabla.
-
-## 2. ¿Cuál es nuestra unidad? · 5 minutos
-
-Elijan una unidad que puedan explicar: una operación, un servicio realizado, un cliente por mes o una cuenta institucional por mes.
-
-**Ingresos y costos deben referirse a la misma unidad.** Definan moneda, fecha y período. En un marketplace, el ingreso propio puede ser la comisión; no es automáticamente el monto total de la compra.
-
-Pedido posible:
-
-> Proponé dos unidades que tengan sentido para nuestro producto y explicá cuál facilita entender los ingresos y costos. Esperá que elijamos.
-
-## 3. ¿Cuánto entra y cuánto cuesta? · 10 minutos
-
-Estimen un ingreso por unidad y los pocos costos relevantes. Cada cifra debe indicar su origen:
-
-- **Dato observado:** registro real del equipo.
-- **Referencia:** fuente identificable y fecha; puede no ser comparable con su caso.
-- **Estimación:** supuesto del equipo, con motivo o rango.
-- **Pendiente:** falta información para asignar un valor.
-
-Un precio que propone la IA es una estimación, no evidencia de disposición a pagar. Si usan tarifas actuales, verifiquen la fuente; si no pueden consultarlas, déjenlas pendientes o trabajen con supuestos identificados.
-
-| Tipo de costo | Qué considerar |
-| --- | --- |
-| Variable por unidad | Consumo de IA, mensajes, comisiones y trabajo manual necesario para atender otra unidad. |
-| Fijo por período | Costos que no cambian con ese volumen: por ejemplo, un abono mensual dentro de su capacidad. |
-| Inicial | Construcción o puesta en marcha; registrarlo aparte. |
-
-La categoría depende de cómo opera el producto. Para consumo, calculen **cantidad por unidad × precio por uso**. Para atención manual, registren minutos y un valor horario estimado. Si hoy trabajan gratis, distingan el desembolso actual del costo de sostener ese esfuerzo. Un plan gratuito para el prototipo no garantiza una operación gratuita a mayor escala.
-
-## 4. ¿Qué deja cada unidad? · 8 minutos
-
-**Contribución por unidad = ingreso por unidad − costo variable por unidad.**
-
-La contribución sirve para cubrir costos fijos y, después, generar ganancias. No equivale a ganancia neta ni asegura que haya clientes.
-
-Ejemplo exclusivamente ilustrativo, en pesos por cliente por mes:
-
-| Concepto | Base estimada | Escenario exigente |
-| --- | ---: | ---: |
-| Ingreso | $10.000 | $10.000 |
-| Costo variable | $3.000 | $5.000 |
-| Contribución | $7.000 | $5.000 |
-
-Aquí solo cambia el costo variable. Todavía faltaría cubrir los costos fijos; estos números no son precios recomendados ni referencias de mercado.
-
-Con su IA, calculen un escenario base y otro exigente, cambiando **un supuesto** elegido por el equipo. Revisen la cuenta y expliquen qué cambia en su decisión. Si faltan datos, dejen la fórmula y el dato pendiente; no usen cero para representar lo desconocido.
-
-**Si aún no hay ingreso o financiación definidos:** calculen costo por unidad y comparen escenarios de costo. Pueden estimar financiación necesaria para un volumen explícitamente supuesto, separando inversión inicial. Dejen la contribución pendiente. Un ahorro potencial para una institución no es un ingreso cobrado por el producto.
-
-## 5. ¿Cómo conseguimos los primeros clientes? · 5 minutos
-
-Definan un canal inicial y qué dinero o tiempo requeriría. No necesitan diseñar una campaña completa.
-
-Si tienen una base suficiente, pueden estimar:
-
-**CAC = costo de adquisición atribuible / nuevos clientes adquiridos.**
-
-Usen el mismo período y distingan clientes pagadores de visitas o registros. Si las cifras son supuestos, indiquen “CAC estimado”; con cero clientes no se puede calcular. No confundan ausencia de gasto publicitario con ausencia de esfuerzo comercial.
-
-Solo si tienen contribución mensual positiva por cliente, pueden calcular un **repago simplificado = CAC / contribución mensual por cliente**. El resultado son meses y supone que el cliente permanece y la contribución se mantiene. No calculen con ingresos en lugar de contribución. Si faltan datos, indiquen qué averiguar. **No se exige CAC, repago ni LTV sin base suficiente.**
-
-## 6. ¿Qué necesitamos comprobar primero? · 7 minutos
-
-Elijan un único supuesto económico frágil: quién pagaría, precio aceptable, tiempo de atención, consumo de IA o costo de conseguir clientes.
-
-Pidan:
-
-> Con nuestros números y pendientes, proponé dos pruebas baratas para investigar el supuesto más frágil. Indicá qué observaríamos y qué no demostraría cada una. Esperá nuestra elección.
-
-Definan prueba, participante o fuente, acción observable, registro, criterio previo, responsable y fecha. Una entrevista puede aclarar presupuesto o compra, pero “sí, lo compraría” no demuestra pago efectivo. En esta actividad se diseña la prueba; no hace falta cobrar ni contratar servicios.
-
-## Estructura de economia-del-producto.md
-
-```markdown
-# Economía del producto — [Proyecto]
-- Fecha, moneda y período:
-- Usuario, valor y evidencia disponible:
-- Quién pagaría/financiaría y por qué (dato o hipótesis):
-- Unidad económica:
+- Fecha, moneda y período: 26/10/2026, pesos argentinos (ARS), período mensual.
+- Usuario, valor y evidencia disponible: estudiantes que utilizan redes sociales durante momentos de estudio. Time-Mirror busca ayudarlos a tomar conciencia del tiempo que pasan en redes y facilitar que vuelvan a estudiar. En la última prueba con la versión v3, los 5 participantes terminaron volviendo a estudiar y 4 de 5 lo hicieron después del primer aviso.
+- Quién pagaría/financiaría y por qué: todavía está pendiente de validar. Consideramos que Time-Mirror debería ser gratuito para el estudiante, ya que no creemos que el usuario necesariamente esté dispuesto a pagar una suscripción mensual por una aplicación de este tipo. Como hipótesis, el producto podría financiarse mediante acuerdos con instituciones educativas, sponsors o publicidad. Ninguna de estas alternativas está validada todavía.
+- Unidad económica: 1 estudiante activo por mes.
 
 ## Números iniciales
+
 | Concepto | Importe y unidad | Observado / referencia / estimación / pendiente | Fuente o motivo |
-| --- | --- | --- | --- |
-| Ingreso por unidad | | | |
-| Costos variables por unidad (desglosados) | | | |
-| Costos fijos por período | | | |
-| Inversión inicial, si corresponde | | | |
+| --- | ---: | --- | --- |
+| Ingreso por unidad | Pendiente | Pendiente | Todavía no validamos quién financiaría Time-Mirror ni cuánto estaría dispuesto a aportar |
+| Infraestructura digital, base de datos y hosting | $300 por estudiante/mes | Estimación | Costo asociado al funcionamiento digital, almacenamiento de datos y uso de servidores |
+| Notificaciones y servicios digitales | $200 por estudiante/mes | Estimación | Costo asociado a notificaciones y otros servicios utilizados por la aplicación |
+| Costo variable total | $500 por estudiante/mes | Cálculo | Suma de los costos variables estimados |
+| Mantenimiento y desarrollo | $1.800.000 por mes | Estimación | Desarrollo, corrección de errores y actualización de la aplicación |
+| Soporte y operación | $700.000 por mes | Estimación | Atención de usuarios, resolución de problemas y administración del servicio |
+| Herramientas, monitoreo y servicios generales | $300.000 por mes | Estimación | Herramientas digitales necesarias para mantener y controlar el funcionamiento del producto |
+| Costos fijos totales | $2.800.000 por mes | Cálculo | Suma de los costos fijos mensuales estimados |
+| Inversión inicial | $8.000.000 | Estimación | Diseño, desarrollo, pruebas y puesta en marcha de una versión comercial de Time-Mirror |
+
+Los valores utilizados son estimaciones iniciales del equipo y no costos reales ya comprobados. Sirven para explorar la economía del producto y deberán validarse más adelante.
 
 ## Resultado y escenario
-- Contribución por unidad (cálculo) o costo por unidad si falta ingreso:
-- Escenario base y escenario exigente; supuesto que cambia:
-- Qué significa y qué no demuestra:
 
-## Primeros clientes
-- Canal, costo y esfuerzo previstos:
-- CAC / repago solo si se pueden estimar con base suficiente; de lo contrario, dato pendiente:
+Como todavía no tenemos un ingreso ni una fuente de financiación validados, no podemos calcular una contribución por unidad.
+
+Por eso analizamos cuánto costaría sostener Time-Mirror por estudiante activo.
+
+### Escenario base
+
+Supuesto: 500 estudiantes activos por mes.
+
+- Costo variable: 500 × $500 = $250.000 por mes.
+- Costos fijos: $2.800.000 por mes.
+- Costo recurrente total: $3.050.000 por mes.
+- Costo por estudiante activo: $3.050.000 / 500 = $6.100 por estudiante por mes.
+
+### Escenario exigente
+
+Mantenemos los mismos 500 estudiantes, pero suponemos que un uso más intensivo aumenta el costo variable de $500 a $2.000 por estudiante por mes.
+
+- Costo variable: 500 × $2.000 = $1.000.000 por mes.
+- Costos fijos: $2.800.000 por mes.
+- Costo recurrente total: $3.800.000 por mes.
+- Costo por estudiante activo: $3.800.000 / 500 = $7.600 por estudiante por mes.
+
+El único supuesto que cambia entre los dos escenarios es el costo variable por estudiante.
+
+Esto permite estimar cuánto dinero sería necesario para mantener funcionando Time-Mirror, pero no demuestra que el producto sea rentable ni que exista actualmente alguien dispuesto a financiarlo.
+
+La inversión inicial estimada de $8.000.000 se mantiene separada de los costos mensuales.
+
+## Primeros clientes / usuarios
+
+- Canal inicial: difusión entre estudiantes universitarios, redes sociales, grupos de estudiantes y referentes o embajadores dentro de universidades.
+- Esfuerzo previsto: aproximadamente 10 horas mensuales del equipo para difusión, contacto y seguimiento inicial.
+- Valor del esfuerzo: pendiente de validar.
+- Gasto publicitario inicial: pendiente.
+- CAC: no puede calcularse todavía porque no tenemos clientes pagadores reales ni un costo de adquisición validado.
+- Repago: no puede calcularse porque todavía no tenemos una contribución mensual por cliente.
 
 ## Supuesto por comprobar
-- Supuesto elegido:
-- Prueba, con quién, acción observable y registro:
-- Criterio previo y decisión según el resultado:
-- Responsable y fecha:
-```
 
-## Antes de cerrar
+- Supuesto elegido: existe alguna fuente de financiación que permita ofrecer Time-Mirror gratuitamente al estudiante.
+- Por qué elegimos este supuesto: las pruebas realizadas hasta ahora muestran señales de valor para el usuario, pero todavía no sabemos cómo podría sostenerse económicamente el producto.
 
-- ¿Se entiende quién pagaría o qué sigue pendiente?
-- ¿Los cálculos usan la misma unidad, moneda y período?
-- ¿Distinguimos datos de estimaciones y costos variables de fijos?
-- ¿Podemos explicar la contribución o el costo unitario sin llamarlo ganancia?
-- ¿Elegimos un supuesto y una prueba concreta?
+### Prueba propuesta
 
-Conversen brevemente: **¿qué costo o supuesto nos ayudó a detectar la IA y qué tuvimos que corregir o decidir nosotros?** No hace falta otro documento.
+Realizar entrevistas breves con responsables de instituciones educativas para explorar si una herramienta como Time-Mirror podría ser financiada o incorporada dentro de programas de bienestar, acompañamiento o productividad estudiantil.
 
-Para el pitch podrán decir: **“Nuestra unidad es…, estimamos que ingresa… y cuesta…, bajo estos supuestos. Lo primero que necesitamos comprobar es…”**
+- Con quién: al menos 5 responsables o decisores de instituciones educativas.
+- Acción observable: presentar brevemente el problema, la evidencia obtenida y el funcionamiento de Time-Mirror, y consultar si existe un área responsable, presupuesto o proceso concreto mediante el cual una herramienta de este tipo podría ser evaluada.
+- Registro: anotar si existe interés, qué área sería responsable, si existe presupuesto relacionado y cuál sería el próximo paso real dentro de la institución.
+- Criterio previo: considerar que vale la pena seguir explorando el modelo institucional si al menos 3 de 5 entrevistados identifican un área responsable y aceptan avanzar hacia una segunda conversación, evaluación o posible piloto.
+- Decisión según el resultado: si el criterio se alcanza, continuar explorando financiación institucional. Si no se alcanza, evaluar otras alternativas como sponsors, publicidad o un modelo freemium.
+- Responsable: equipo Time-Mirror.
+- Fecha: próxima ronda de validación posterior a la Clase 9.
+
+## Aprendizaje económico principal
+
+Hasta ahora comprobamos señales de uso y valor, pero todavía no comprobamos cómo se sostendría económicamente Time-Mirror.
+
+La principal incertidumbre ya no es solamente si el estudiante utiliza la herramienta, sino quién estaría dispuesto a financiarla y bajo qué modelo.
+
+La IA nos ayudó a identificar que, al tratarse de un producto digital, el mayor costo no necesariamente está en almacenar datos o enviar notificaciones, sino también en mantener, actualizar y operar la aplicación. Como equipo decidimos no asumir una suscripción paga por parte del estudiante y dejar el modelo de financiación como una hipótesis que todavía debe comprobarse.
